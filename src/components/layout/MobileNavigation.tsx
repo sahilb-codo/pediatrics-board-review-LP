@@ -47,7 +47,7 @@ export function MobileNavigation({ items, login, cta }: MobileNavigationProps) {
       <div
         id={PANEL_ID}
         hidden={!isOpen}
-        className="absolute inset-x-0 top-full max-h-[calc(100dvh-var(--header-height))] overflow-y-auto border-t border-line bg-white shadow-lift"
+        className="absolute inset-x-0 top-full max-h-[calc(100dvh-var(--announcement-height)-var(--header-height))] overflow-y-auto border-t border-line bg-white shadow-lift"
       >
         <nav aria-label="Mobile" className="mx-auto max-w-site px-4 py-4 sm:px-6">
           <ul className="flex flex-col divide-y divide-line">

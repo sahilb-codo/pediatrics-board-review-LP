@@ -6,10 +6,15 @@ type AnnouncementBarProps = {
   announcement: SiteContent["announcement"];
 };
 
+/** Sticky promo strip, matching the reference: it stays pinned while the header scrolls away. */
 export function AnnouncementBar({ announcement }: AnnouncementBarProps) {
   return (
-    <aside id="top" aria-label="Announcement" className="bg-linear-to-r from-violet via-[#6a24d6] to-[#7b2fd6] text-white">
-      <Container className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 py-2.5 text-center text-sm font-bold sm:text-[0.9375rem]">
+    <aside
+      id="top"
+      aria-label="Announcement"
+      className="sticky top-0 z-50 h-(--announcement-height) bg-linear-to-r from-violet via-[#6a24d6] to-[#7b2fd6] text-white"
+    >
+      <Container className="flex h-full flex-wrap content-center items-center justify-center gap-x-4 gap-y-1.5 text-center text-[0.8125rem] leading-snug font-bold sm:text-[0.9375rem]">
         <p>
           <span className="uppercase">{announcement.text}</span>
           <span aria-hidden="true" className="mx-2">
@@ -17,7 +22,13 @@ export function AnnouncementBar({ announcement }: AnnouncementBarProps) {
           </span>
           {announcement.detail}
         </p>
-        <Button href={announcement.cta.href} variant="accent" size="sm" trailingIcon="arrow-right" className="uppercase">
+        <Button
+          href={announcement.cta.href}
+          variant="accent"
+          size="sm"
+          trailingIcon="arrow-right"
+          className="h-8 uppercase sm:h-9"
+        >
           {announcement.cta.label}
         </Button>
       </Container>

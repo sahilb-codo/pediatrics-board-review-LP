@@ -35,6 +35,14 @@
 
   /* Layout */
   --header-height: 4.5rem;
+  /* The announcement bar is the only sticky element; anchors scroll to just below it. */
+  --announcement-height: 5.25rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --announcement-height: 3.5rem;
+  }
 }
 
 @theme inline {
@@ -72,7 +80,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: calc(var(--header-height) + 1rem);
+    scroll-padding-top: calc(var(--announcement-height) + 1rem);
     -webkit-text-size-adjust: 100%;
   }
 
