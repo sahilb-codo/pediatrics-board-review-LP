@@ -13,7 +13,7 @@ type HeaderProps = {
 export function Header({ site, navigation }: HeaderProps) {
   return (
     <header className="sticky top-0 z-40 border-b border-line/70 bg-white/95 backdrop-blur supports-backdrop-filter:bg-white/85">
-      <Container className="flex h-(--header-height) items-center justify-between gap-6">
+      <Container className="flex h-(--header-height) items-center justify-between gap-4 xl:gap-6">
         <Logo name={site.name} shortName={site.shortName} highlight={site.logoHighlight} tagline={site.logoTagline} />
 
         <nav aria-label="Main" className="hidden lg:block">

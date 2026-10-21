@@ -13,7 +13,7 @@ type LogoProps = {
 /** Original text-based brand mark: gradient badge with a medical cross and check. */
 export function Logo({ name, shortName, highlight, tagline, className }: LogoProps) {
   return (
-    <Link href="/" className={cn("flex items-center gap-2.5", className)} aria-label={`${name} home`}>
+    <Link href="/" className={cn("flex shrink-0 items-center gap-2.5 whitespace-nowrap", className)} aria-label={`${name} home`}>
       <span aria-hidden="true" className="grid size-10 shrink-0 place-items-center rounded-[11px] bg-linear-135 from-brand to-violet">
         <svg viewBox="0 0 40 40" className="size-10" focusable="false">
           <path d="M17 9h6v8h8v6h-8v8h-6v-8H9v-6h8z" fill="#fff" opacity="0.95" />

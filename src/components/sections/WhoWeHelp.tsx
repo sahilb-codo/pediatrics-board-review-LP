@@ -28,7 +28,7 @@ export function WhoWeHelp({ audiences }: WhoWeHelpProps) {
             <AudienceCard key={audience.id} audience={audience} />
           ))}
         </div>
-        <div className="mt-5 grid gap-5 md:grid-cols-3">
+        <div className="mt-5 grid gap-5 md:grid-cols-2 lg:grid-cols-3 [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:lg:col-span-1">
           {compact.map((audience) => (
             <AudienceCard key={audience.id} audience={audience} />
           ))}

@@ -34,7 +34,7 @@ export function DesktopNavigation({ items }: DesktopNavigationProps) {
   }
 
   return (
-    <ul className="flex items-center gap-6 xl:gap-8">
+    <ul className="flex items-center gap-5 xl:gap-8">
       {items.map((item) => {
         if (!item.children) {
           return (

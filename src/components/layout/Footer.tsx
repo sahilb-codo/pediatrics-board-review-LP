@@ -10,7 +10,7 @@ type FooterProps = {
   footer: FooterContent;
 };
 
-const linkClasses = "text-sm text-body transition-colors hover:text-brand";
+const linkClasses = "inline-block py-1 text-sm text-body transition-colors hover:text-brand";
 
 export function Footer({ site, footer }: FooterProps) {
   return (
@@ -24,7 +24,7 @@ export function Footer({ site, footer }: FooterProps) {
               <p className="font-semibold text-ink">{footer.contact.label}</p>
               <a
                 href={`mailto:${footer.contact.email}`}
-                className="mt-1 inline-flex items-center gap-2 text-brand hover:text-brand-strong"
+                className="inline-flex items-center gap-2 py-1 text-brand hover:text-brand-strong"
               >
                 <Icon name="mail" className="size-4" />
                 {footer.contact.email}
@@ -49,7 +49,7 @@ export function Footer({ site, footer }: FooterProps) {
             {footer.columns.map((column) => (
               <nav key={column.title} aria-label={column.title}>
                 <h2 className="text-sm font-bold tracking-wide text-ink uppercase">{column.title}</h2>
-                <ul className="mt-4 flex flex-col gap-3">
+                <ul className="mt-3 flex flex-col gap-1.5">
                   {column.links.map((link) => (
                     <li key={link.label}>
                       <Link href={link.href} className={linkClasses}>
@@ -74,7 +74,7 @@ export function Footer({ site, footer }: FooterProps) {
               </li>
             ))}
             <li>
-              <a href="#top" className="inline-flex items-center gap-1.5 font-medium text-brand hover:text-brand-strong">
+              <a href="#top" className="inline-flex items-center gap-1.5 py-1 font-medium text-brand hover:text-brand-strong">
                 Back to top
                 <Icon name="arrow-up" className="size-4" />
               </a>

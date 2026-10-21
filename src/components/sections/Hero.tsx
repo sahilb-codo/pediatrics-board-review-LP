@@ -15,7 +15,7 @@ export function Hero({ hero }: HeroProps) {
 
   return (
     <section aria-labelledby="hero-title" className="overflow-hidden bg-white">
-      <Container className="grid items-center gap-8 pt-10 pb-16 sm:pt-14 lg:grid-cols-[1.08fr_0.92fr] lg:gap-10 lg:pt-16 lg:pb-20">
+      <Container className="grid items-center gap-4 pt-10 pb-16 sm:pt-14 lg:grid-cols-[1.08fr_0.92fr] lg:gap-10 lg:pt-16 lg:pb-20">
         <div className="flex flex-col items-start gap-7">
           <h1
             id="hero-title"
