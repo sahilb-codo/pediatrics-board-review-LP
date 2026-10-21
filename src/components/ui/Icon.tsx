@@ -10,6 +10,12 @@ const paths = {
   check: <path d="m5 12.5 4.5 4.5L19 7.5" />,
   menu: <path d="M4 7h16M4 12h16M4 17h16" />,
   close: <path d="M6 6l12 12M18 6 6 18" />,
+  star: (
+    <path
+      fill="currentColor"
+      d="m12 2.8 2.8 5.7 6.3.9-4.55 4.43 1.07 6.27L12 17.13 6.38 20.1l1.07-6.27L2.9 9.4l6.3-.9z"
+    />
+  ),
 } as const;
 
 export type IconName = keyof typeof paths;
