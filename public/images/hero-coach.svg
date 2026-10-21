@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 120 520 520" role="img" aria-labelledby="t">
+  <title id="t">Illustration of a smiling pediatrician coach in a white coat</title>
+  <!-- Coat -->
+  <path d="M40 640c8-120 70-190 170-214l90-14 90 14c100 24 162 94 170 214z" fill="#ffffff"/>
+  <path d="M40 640c8-120 70-190 170-214l90-14 90 14c100 24 162 94 170 214z" fill="none" stroke="#dfe3ec" stroke-width="3"/>
+  <!-- Shirt and tie -->
+  <path d="M236 420l64 80 64-80-14 220H250z" fill="#f4f7fb"/>
+  <path d="M300 470l-20 22 14 18-18 130h48l-18-130 14-18z" fill="#a9c9f2"/>
+  <path d="M300 470l-20 22 14 18h12l14-18z" fill="#8db4ea"/>
+  <!-- Lapels -->
+  <path d="M210 428l60 92-30 34 46 86h-60l-36-110z" fill="#f1f3f8"/>
+  <path d="M390 428l-60 92 30 34-46 86h60l36-110z" fill="#f1f3f8"/>
+  <!-- Neck -->
+  <path d="M258 340h84v70c0 26-19 46-42 46s-42-20-42-46z" fill="#b97a55"/>
+  <path d="M258 372c26 16 58 16 84 0v-20h-84z" fill="#a66a47"/>
+  <!-- Collar -->
+  <path d="M256 412l44 58-30 30-34-58z" fill="#ffffff" stroke="#dfe3ec" stroke-width="2"/>
+  <path d="M344 412l-44 58 30 30 34-58z" fill="#ffffff" stroke="#dfe3ec" stroke-width="2"/>
+  <!-- Ears -->
+  <ellipse cx="206" cy="268" rx="18" ry="28" fill="#b97a55"/>
+  <ellipse cx="394" cy="268" rx="18" ry="28" fill="#b97a55"/>
+  <!-- Head -->
+  <path d="M300 152c58 0 96 42 96 108 0 74-44 128-96 128s-96-54-96-128c0-66 38-108 96-108z" fill="#c98b62"/>
+  <!-- Hair -->
+  <path d="M204 252c-10-80 36-122 98-122 64 0 104 40 94 122-8-38-30-62-60-70-30 14-82 18-112 6-10 16-16 40-20 64z" fill="#1f1a2e"/>
+  <!-- Brows -->
+  <path d="M244 232c14-10 32-12 46-6" fill="none" stroke="#1f1a2e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M310 226c14-6 32-4 46 6" fill="none" stroke="#1f1a2e" stroke-width="7" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <ellipse cx="267" cy="262" rx="8" ry="9" fill="#1f1a2e"/>
+  <ellipse cx="333" cy="262" rx="8" ry="9" fill="#1f1a2e"/>
+  <circle cx="270" cy="259" r="2.5" fill="#ffffff"/>
+  <circle cx="336" cy="259" r="2.5" fill="#ffffff"/>
+  <!-- Nose -->
+  <path d="M300 268c-4 18-8 28-2 32 6 3 12 2 16-1" fill="none" stroke="#a66a47" stroke-width="5" stroke-linecap="round"/>
+  <!-- Smile -->
+  <path d="M262 318c22 26 54 26 76 0-10 34-66 34-76 0z" fill="#ffffff" stroke="#8a4f33" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Cheeks -->
+  <circle cx="246" cy="300" r="12" fill="#e2967a" opacity="0.45"/>
+  <circle cx="354" cy="300" r="12" fill="#e2967a" opacity="0.45"/>
+  <!-- Stethoscope -->
+  <path d="M238 420c-16 54-10 104 22 128 28 20 70 12 86-18" fill="none" stroke="#2c2f4a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M362 420c12 40 10 74-4 104" fill="none" stroke="#2c2f4a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="352" cy="534" r="20" fill="#c3c8d6" stroke="#2c2f4a" stroke-width="8"/>
+  <circle cx="352" cy="534" r="7" fill="#2c2f4a"/>
+</svg>

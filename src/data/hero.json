@@ -16,8 +16,8 @@
     "image": {
       "src": "/images/hero-coach.svg",
       "alt": "Illustration of a smiling pediatrician coach in a white coat",
-      "width": 600,
-      "height": 640
+      "width": 520,
+      "height": 520
     },
     "greeting": "Hi, I'm Dr. Avery",
     "message": "and I'm here to help you pass!",
