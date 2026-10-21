@@ -15,6 +15,7 @@ type SectionHeadingProps = {
   weight?: "medium" | "bold";
   className?: string;
   titleClassName?: string;
+  highlightClassName?: string;
 };
 
 /** Standard section title block: optional eyebrow, heading with accent words and supporting copy. */
@@ -30,6 +31,7 @@ export function SectionHeading({
   weight = "medium",
   className,
   titleClassName,
+  highlightClassName,
 }: SectionHeadingProps) {
   const centered = align === "center";
 
@@ -50,7 +52,7 @@ export function SectionHeading({
           titleClassName,
         )}
       >
-        <HighlightText text={title} highlight={highlight} />
+        <HighlightText text={title} highlight={highlight} className={highlightClassName} />
       </Heading>
       {description ? (
         <p className={cn("max-w-xl text-base", tone === "light" ? "text-white/80" : "text-body")}>{description}</p>

@@ -2,13 +2,30 @@
   "title": "Pass Your Pediatric Boards With Confidence",
   "description": "Whether it's your first attempt or you've struggled before, PedsReady gives you a structured, high-yield study system and the test-taking strategies to walk into exam day prepared. Take the next step toward board certification.",
   "highlights": [
-    { "lead": "Built to help you pass in a", "emphasis": "Single attempt" },
-    { "lead": "Structured courses designed for", "emphasis": "Pediatricians" },
-    { "lead": "Study plans for first-time and", "emphasis": "Repeat takers" }
+    {
+      "lead": "Built to help you pass in a",
+      "emphasis": "Single attempt"
+    },
+    {
+      "lead": "Structured courses designed for",
+      "emphasis": "Pediatricians"
+    },
+    {
+      "lead": "Study plans for first-time and",
+      "emphasis": "Repeat takers"
+    }
   ],
-  "cta": { "label": "Get Started", "href": "#who-we-help" },
+  "cta": {
+    "label": "Get Started",
+    "href": "#who-we-help"
+  },
   "guarantee": {
-    "badge": "100% Guarantee",
+    "image": {
+      "src": "/images/guarantee-badge.webp",
+      "alt": "",
+      "width": 256,
+      "height": 255
+    },
     "title": "First-time pass guarantee,",
     "highlight": "or your money back!"
   },

@@ -56,7 +56,8 @@ export type HeroContent = {
   highlights: HeroHighlight[];
   cta: LinkItem;
   guarantee: {
-    badge: string;
+    /** Decorative seal; the adjacent text carries the meaning, so `alt` may be empty. */
+    image: ImageAsset;
     title: string;
     highlight: string;
   };
@@ -140,11 +141,7 @@ export type FeaturesContent = {
     paragraphs: string[];
     closing: string;
     cta: LinkItem;
-    visual: {
-      image: ImageAsset;
-      label: string;
-      bubbles: string[];
-    };
+    image: ImageAsset;
   };
   asSeenOn: {
     title: string;

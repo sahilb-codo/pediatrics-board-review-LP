@@ -19,21 +19,24 @@
       "We help you master all three, so you don't just study harder. You study smarter."
     ],
     "closing": "Join pediatricians who've found a smarter way to prepare.",
-    "cta": { "label": "Get Started", "href": "#who-we-help" },
-    "visual": {
-      "image": {
-        "src": "/images/approach-thinking.svg",
-        "alt": "Illustration of a thoughtful physician considering common study myths",
-        "width": 520,
-        "height": 560
-      },
-      "label": "Sound Like You?",
-      "bubbles": ["Strategy is fluff", "I've never failed – I'll be fine", "It wasn't me – it was the book"]
+    "cta": {
+      "label": "Get Started",
+      "href": "#who-we-help"
+    },
+    "image": {
+      "src": "/images/approach-doctor.webp",
+      "alt": "A doctor deep in thought, surrounded by speech bubbles reading: Sound like you? Strategy is fluff. I have never failed, I will be fine. It was not me, it was the book.",
+      "width": 730,
+      "height": 640
     }
   },
   "asSeenOn": {
     "title": "As Seen On",
-    "outlets": ["The Resident Report", "MedLearn Weekly", "Pediatric Practice Today"],
+    "outlets": [
+      "The Resident Report",
+      "MedLearn Weekly",
+      "Pediatric Practice Today"
+    ],
     "note": "Media outlet names are fictional placeholders."
   },
   "benefits": {
