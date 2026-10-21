@@ -1,7 +1,7 @@
 import { TestimonialCard } from "@/components/cards/TestimonialCard";
+import { Carousel } from "@/components/ui/Carousel";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { Slideshow } from "@/components/ui/Slideshow";
 import type { TestimonialsContent } from "@/types";
 
 type TestimonialSpotlightProps = {
@@ -19,17 +19,19 @@ export function TestimonialSpotlight({ spotlight }: TestimonialSpotlightProps) {
           weight="bold"
           titleClassName="text-navy"
         />
-        <div className="mt-10">
-          <Slideshow
-            label="Pediatrician testimonials"
-            itemName="testimonial"
-            slides={spotlight.items.map((testimonial) => ({
-              id: testimonial.id,
-              label: testimonial.name,
-              content: <TestimonialCard testimonial={testimonial} />,
-            }))}
-          />
-        </div>
+        <Carousel
+          label="Pediatrician testimonials"
+          itemName="testimonial"
+          controls="sides"
+          showDots
+          autoplayMs={7000}
+          className="mt-10"
+          slides={spotlight.items.map((testimonial) => ({
+            id: testimonial.id,
+            label: testimonial.name,
+            content: <TestimonialCard testimonial={testimonial} />,
+          }))}
+        />
       </Container>
     </section>
   );

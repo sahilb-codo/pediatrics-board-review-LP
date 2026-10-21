@@ -12,7 +12,7 @@ authentication.
 - Next.js 16 (App Router) with TypeScript, exported as a static site (`output: "export"`)
 - Tailwind CSS v4 with design tokens defined as CSS variables in `src/app/globals.css`
 - Poppins via `next/font` (self-hosted at build time)
-- No UI or animation libraries; only three small client components (navigation, carousels, demo form)
+- No UI or animation libraries; a few small client components (navigation, carousel, "Read more" text, demo form)
 
 ## Getting started
 

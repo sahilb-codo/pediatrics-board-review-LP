@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ReviewCard } from "@/components/cards/ReviewCard";
+import { Carousel } from "@/components/ui/Carousel";
 import { Container } from "@/components/ui/Container";
-import { ScrollCarousel } from "@/components/ui/ScrollCarousel";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { StarRating } from "@/components/ui/StarRating";
 import type { TestimonialsContent } from "@/types";
@@ -25,27 +25,31 @@ export function ReviewsSection({ reviews }: ReviewsSectionProps) {
           highlightClassName="font-semibold text-brand"
           className="mx-auto max-w-2xl"
         />
-        <div className="mt-10 flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-white px-5 py-3.5 ring-1 ring-line">
-          <p className="flex items-center gap-2 text-sm font-semibold text-ink">
-            <Image
-              src={platform.logo.src}
-              alt={platform.logo.alt}
-              width={platform.logo.width}
-              height={platform.logo.height}
-              className="h-6 w-auto"
-            />
-            {reviews.ratingLabel}
-            <StarRating rating={reviews.rating} className="text-amber" />
-          </p>
-          <span className="rounded-md bg-teal px-2.5 py-1 text-xs font-semibold text-white">{reviews.badge}</span>
+        <div className="mt-10 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-2xl bg-white px-5 py-3.5 ring-1 ring-line">
+          <Image
+            src={platform.logo.src}
+            alt={platform.logo.alt}
+            width={platform.logo.width}
+            height={platform.logo.height}
+            className="h-6 w-auto"
+          />
+          <span className="text-sm font-bold text-ink">{reviews.ratingLabel}</span>
+          <StarRating rating={reviews.rating} className="text-amber" starClassName="size-5" />
+          <span className="text-sm font-semibold text-ink">{reviews.badge}</span>
         </div>
-        <div className="mt-6">
-          <ScrollCarousel label={`${platform.name} reviews`} itemClassName="w-[85%] sm:w-[calc((100%-1rem)/2)] lg:w-[calc((100%-3rem)/4)]">
-            {reviews.items.map((review) => (
-              <ReviewCard key={review.id} review={review} />
-            ))}
-          </ScrollCarousel>
-        </div>
+        <Carousel
+          label={`${platform.name} reviews`}
+          itemName="review"
+          perViewClassName="[--per-view:1] sm:[--per-view:2] lg:[--per-view:3] xl:[--per-view:4]"
+          controls="below"
+          autoplayMs={6000}
+          className="mt-6"
+          slides={reviews.items.map((review) => ({
+            id: review.id,
+            label: review.name,
+            content: <ReviewCard review={review} platform={platform.name} />,
+          }))}
+        />
       </Container>
     </section>
   );
