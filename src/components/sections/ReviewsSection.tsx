@@ -25,6 +25,9 @@ export function ReviewsSection({ reviews }: ReviewsSectionProps) {
           highlightClassName="font-semibold text-brand"
           className="mx-auto max-w-2xl"
         />
+      </Container>
+      {/* Full-bleed like the reference widget: only a small gutter on each side. */}
+      <div className="px-4 sm:px-6 lg:px-10">
         <div className="mt-10 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-2xl bg-white px-5 py-3.5 ring-1 ring-line">
           <Image
             src={platform.logo.src}
@@ -40,7 +43,7 @@ export function ReviewsSection({ reviews }: ReviewsSectionProps) {
         <Carousel
           label={`${platform.name} reviews`}
           itemName="review"
-          perViewClassName="[--per-view:1] sm:[--per-view:2] lg:[--per-view:3] xl:[--per-view:4]"
+          perViewClassName="[--per-view:1] sm:[--per-view:2] lg:[--per-view:3] xl:[--per-view:4] 2xl:[--per-view:5] min-[112.5rem]:[--per-view:6]"
           controls="below"
           autoplayMs={6000}
           className="mt-6"
@@ -50,7 +53,7 @@ export function ReviewsSection({ reviews }: ReviewsSectionProps) {
             content: <ReviewCard review={review} platform={platform.name} />,
           }))}
         />
-      </Container>
+      </div>
     </section>
   );
 }
