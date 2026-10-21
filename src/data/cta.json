@@ -14,43 +14,6 @@
       "height": 631
     }
   },
-  "freeResources": {
-    "eyebrow": "Free study resources",
-    "title": "Download Free Chapters",
-    "description": "Claim two free PDF chapters from the PBR study guides: the GI chapter and the Derm chapter.",
-    "fields": {
-      "name": "Name",
-      "email": "Email"
-    },
-    "submitLabel": "Download Free Chapters",
-    "demoMessage": "This form is a front-end preview only. Nothing is submitted, sent or stored.",
-    "submittedMessage": "Thanks! This preview form is not connected yet, so your details were not sent or saved.",
-    "resources": [
-      "GI Chapter (PDF)",
-      "Derm Chapter (PDF)",
-      "MP3 Audio Study Guides"
-    ],
-    "images": [
-      {
-        "src": "/images/resources/study-guides.webp",
-        "alt": "PBR dermatology and gastroenterology study guide covers",
-        "width": 250,
-        "height": 250
-      },
-      {
-        "src": "/images/resources/sample-gi-chapter.webp",
-        "alt": "Preview of the GI chapter showing a digestive system illustration",
-        "width": 549,
-        "height": 360
-      },
-      {
-        "src": "/images/resources/sample-dermatology-chapter.webp",
-        "alt": "Preview of the Derm chapter showing a skin condition photo",
-        "width": 549,
-        "height": 360
-      }
-    ]
-  },
   "final": {
     "title": "Get Started",
     "description": "Take the first step toward passing your boards - with clarity, confidence, and a proven system.",

@@ -228,21 +228,6 @@ export type CtaContent = {
     cta: LinkItem;
     image: ImageAsset;
   };
-  freeResources: {
-    eyebrow: string;
-    title: string;
-    description: string;
-    fields: {
-      name: string;
-      email: string;
-    };
-    submitLabel: string;
-    demoMessage: string;
-    /** Shown after submit. Must not claim anything was sent or stored. */
-    submittedMessage: string;
-    resources: string[];
-    images: ImageAsset[];
-  };
   final: {
     title: string;
     description: string;

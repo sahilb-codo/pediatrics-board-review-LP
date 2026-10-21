@@ -5,14 +5,14 @@ imagery and copy. All content is local JSON; there is no backend, database, API 
 authentication.
 
 > **Front-end only.** Purchase, login, course and legal links lead to a `/coming-soon`
-> placeholder, and the free-chapters form does not submit anywhere (it says so on screen).
+> placeholder.
 
 ## Tech stack
 
 - Next.js 16 (App Router) with TypeScript, exported as a static site (`output: "export"`)
 - Tailwind CSS v4 with design tokens defined as CSS variables in `src/app/globals.css`
 - Poppins via `next/font` (self-hosted at build time)
-- No UI or animation libraries; a few small client components (navigation, carousel, "Read more" text, demo form)
+- No UI or animation libraries; a few small client components (navigation, carousel, "Read more" text)
 
 ## Getting started
 
