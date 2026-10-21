@@ -6,10 +6,10 @@
   "note": "Dr. Jordan Avery is a fictional founder created for this demo.",
   "cta": {
     "label": "Get Started",
-    "href": "#who-we-help"
+    "href": "/#who-we-help"
   },
   "image": {
-    "src": "/images/hero-coach.svg",
+    "src": "/images/founder.svg",
     "alt": "Illustrated portrait of the fictional founder, Dr. Jordan Avery",
     "width": 520,
     "height": 520

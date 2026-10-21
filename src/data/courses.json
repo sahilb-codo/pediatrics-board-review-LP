@@ -49,7 +49,7 @@
       "label": "Initial Certification Exam",
       "cta": {
         "label": "Start Here",
-        "href": "#initial-certification"
+        "href": "/#initial-certification"
       }
     },
     {
@@ -58,7 +58,7 @@
       "label": "MOC & MOCA-Peds",
       "cta": {
         "label": "Start Here",
-        "href": "#moca-peds"
+        "href": "/#moca-peds"
       }
     },
     {
@@ -67,7 +67,7 @@
       "label": "Help your residents pass with confidence at scale",
       "cta": {
         "label": "Start Here",
-        "href": "#residency-partnerships"
+        "href": "/#residency-partnerships"
       }
     }
   ],

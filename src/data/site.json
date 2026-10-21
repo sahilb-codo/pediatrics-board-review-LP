@@ -11,7 +11,7 @@
     "detail": "Save up to 75% when you lock in now",
     "cta": {
       "label": "Preorder for $1",
-      "href": "#preorder"
+      "href": "/#preorder"
     }
   }
 }

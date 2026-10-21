@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
+import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
-import { navigation, site } from "@/lib/content";
+import { footer, navigation, site } from "@/lib/content";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -30,7 +31,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={poppins.variable}>
+    <html lang="en" className={poppins.variable} data-scroll-behavior="smooth">
       <body className="min-h-dvh">
         <a href="#main-content" className="skip-link">
           Skip to main content
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <AnnouncementBar announcement={site.announcement} />
         <Header site={site} navigation={navigation} />
         <main id="main-content">{children}</main>
+        <Footer site={site} footer={footer} />
       </body>
     </html>
   );

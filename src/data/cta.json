@@ -5,7 +5,7 @@
     "description": "Take our quick quiz and get a recommended study path",
     "cta": {
       "label": "Get Started",
-      "href": "#who-we-help"
+      "href": "/#who-we-help"
     },
     "image": {
       "src": "/images/quiz-pediatrician.webp",
@@ -50,7 +50,7 @@
     "description": "Take the first step toward passing your boards with clarity, confidence and a proven system.",
     "cta": {
       "label": "Get Started",
-      "href": "#who-we-help"
+      "href": "/#who-we-help"
     }
   }
 }
