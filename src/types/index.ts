@@ -16,6 +16,8 @@ export type ImageAsset = {
 export type SiteContent = {
   name: string;
   shortName: string;
+  /** Part of `shortName` rendered in the accent color in the logo. */
+  logoHighlight: string;
   logoTagline: string;
   title: string;
   description: string;
