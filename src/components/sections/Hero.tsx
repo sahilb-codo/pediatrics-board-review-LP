@@ -18,11 +18,11 @@ export function Hero({ hero }: HeroProps) {
         <div className="flex flex-col items-start gap-7">
           <h1
             id="hero-title"
-            className="max-w-xl text-[2.25rem] leading-[1.15] font-medium tracking-tight sm:text-5xl lg:text-[3.375rem]"
+            className="max-w-xl text-[2.375rem] leading-[1.23] font-medium text-ink sm:text-5xl lg:text-[3.25rem]"
           >
             {hero.title}
           </h1>
-          <p className="max-w-xl text-[0.9375rem] sm:text-base">{hero.description}</p>
+          <p className="max-w-xl text-base text-soft">{hero.description}</p>
 
           <ul className="grid w-full max-w-xl gap-4 sm:grid-cols-3">
             {hero.highlights.map((highlight) => (
@@ -30,9 +30,9 @@ export function Hero({ hero }: HeroProps) {
                 <span className="grid size-7 shrink-0 place-items-center rounded-full bg-lilac text-brand">
                   <Icon name="check" className="size-3.5" strokeWidth={3} />
                 </span>
-                <span className="flex flex-col text-[0.8125rem] leading-snug text-ink">
+                <span className="flex flex-col text-sm leading-[1.2] text-ink">
                   {highlight.lead}
-                  <strong className="mt-1 font-bold uppercase">{highlight.emphasis}</strong>
+                  <strong className="mt-1 text-lg leading-[1.35] font-bold text-[#393939] uppercase">{highlight.emphasis}</strong>
                 </span>
               </li>
             ))}

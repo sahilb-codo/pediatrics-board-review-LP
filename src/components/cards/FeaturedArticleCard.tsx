@@ -21,12 +21,12 @@ export function FeaturedArticleCard({ article }: FeaturedArticleCardProps) {
           sizes="(min-width: 1024px) 36rem, 90vw"
           className="h-auto w-full rounded-2xl"
         />
-        <span className="absolute -bottom-3 left-6 rounded-md bg-aqua px-3 py-1.5 text-xs font-bold text-navy uppercase">
+        <span className="absolute -bottom-3 left-6 rounded-md bg-aqua px-3 py-1.5 text-[0.9375rem] font-semibold text-ink uppercase">
           {article.badge}
         </span>
       </div>
       <div className="flex flex-col items-start">
-        <h3 className="text-xl leading-snug font-bold text-ink uppercase sm:text-2xl">
+        <h3 className="text-xl leading-[1.6] font-bold text-ink uppercase sm:text-[1.75rem]">
           <Link
             href={article.href}
             className="after:absolute after:inset-0 after:rounded-[2.5rem] group-hover:text-brand focus-visible:outline-none focus-visible:after:outline-3 focus-visible:after:outline-offset-4 focus-visible:after:outline-brand"
@@ -34,7 +34,7 @@ export function FeaturedArticleCard({ article }: FeaturedArticleCardProps) {
             {article.title}
           </Link>
         </h3>
-        <p className="mt-5 text-[0.9375rem] leading-relaxed">{article.excerpt}</p>
+        <p className="mt-5 text-[1.0625rem] text-body">{article.excerpt}</p>
         <p className="mt-6 rounded bg-cream-line px-2 py-1 text-[0.6875rem] font-bold tracking-wide text-ink uppercase">
           {article.category}
         </p>

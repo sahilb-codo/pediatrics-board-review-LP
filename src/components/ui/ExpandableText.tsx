@@ -17,7 +17,7 @@ export function ExpandableText({ text, minLengthToClamp = 160, className }: Expa
 
   return (
     <div className={className}>
-      <p className={cn("text-sm leading-relaxed text-body", clampable && !expanded && "line-clamp-4")}>{text}</p>
+      <p className={cn("text-[0.9375rem] leading-[1.45] text-ink", clampable && !expanded && "line-clamp-4")}>{text}</p>
       {clampable ? (
         <button
           type="button"

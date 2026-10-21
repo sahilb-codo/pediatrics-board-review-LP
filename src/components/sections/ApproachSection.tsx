@@ -20,13 +20,14 @@ export function ApproachSection({ approach }: ApproachSectionProps) {
             title={approach.title}
             highlight={approach.highlight}
             highlightClassName="font-bold text-navy"
+            sizeClassName="text-3xl leading-[1.2] sm:text-4xl lg:text-[2.4375rem]"
           />
           {approach.paragraphs.map((paragraph) => (
-            <p key={paragraph} className="max-w-xl">
+            <p key={paragraph} className="max-w-xl text-ink">
               {paragraph}
             </p>
           ))}
-          <p className="font-semibold text-ink">{approach.closing}</p>
+          <p className="font-bold text-ink">{approach.closing}</p>
           <Button href={approach.cta.href} trailingIcon="chevron-right" className="mt-2">
             {approach.cta.label}
           </Button>

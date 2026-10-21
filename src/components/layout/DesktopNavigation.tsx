@@ -11,7 +11,7 @@ type DesktopNavigationProps = {
 };
 
 const linkClasses =
-  "rounded-md px-1 py-2 text-[0.9375rem] font-medium text-ink transition-colors hover:text-brand";
+  "rounded-md px-1 py-2 text-base font-normal text-ink transition-colors hover:text-brand";
 
 export function DesktopNavigation({ items }: DesktopNavigationProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);

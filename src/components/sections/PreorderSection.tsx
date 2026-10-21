@@ -17,11 +17,12 @@ export function PreorderSection({ preorder }: PreorderSectionProps) {
           title={preorder.title}
           highlight={preorder.highlight}
           align="center"
-          weight="bold"
-          titleClassName="mt-4 text-navy"
+          weight="extrabold"
+          titleClassName="mt-4 text-[#1e1b2e]"
+          sizeClassName="text-3xl leading-[1.14] sm:text-4xl lg:text-[2.5rem]"
         />
-        <p className="mt-5 rounded-full border border-amber/60 bg-cream px-5 py-2 text-center text-sm font-semibold text-ink sm:text-base">
-          {preorder.note} <span className="font-bold text-orange">{preorder.noteHighlight}</span>
+        <p className="mt-5 rounded-full border border-amber/60 bg-cream px-5 py-2 text-center text-base font-extrabold text-[#2a2540] sm:text-[1.1875rem]">
+          {preorder.note} <span className="text-orange">{preorder.noteHighlight}</span>
         </p>
         <div className="mt-10 grid w-full max-w-4xl gap-6 md:grid-cols-2">
           {preorder.products.map((product) => (

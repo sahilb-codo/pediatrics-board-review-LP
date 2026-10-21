@@ -22,7 +22,7 @@ export function ReviewsSection({ reviews }: ReviewsSectionProps) {
           highlight={reviews.highlight}
           align="center"
           weight="bold"
-          highlightClassName="font-semibold text-brand"
+          highlightClassName="text-[1.2em] font-medium text-brand"
           className="mx-auto max-w-2xl"
         />
       </Container>
@@ -36,9 +36,9 @@ export function ReviewsSection({ reviews }: ReviewsSectionProps) {
             height={platform.logo.height}
             className="h-6 w-auto"
           />
-          <span className="text-sm font-bold text-ink">{reviews.ratingLabel}</span>
+          <span className="text-[0.9375rem] font-bold text-ink">{reviews.ratingLabel}</span>
           <StarRating rating={reviews.rating} className="text-amber" starClassName="size-5" />
-          <span className="text-sm font-semibold text-ink">{reviews.badge}</span>
+          <span className="text-[0.9375rem] font-semibold text-ink">{reviews.badge}</span>
         </div>
         <Carousel
           label={`${platform.name} reviews`}

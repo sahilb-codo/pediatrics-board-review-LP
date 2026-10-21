@@ -12,7 +12,7 @@ type FooterProps = {
   cta: CtaContent["final"];
 };
 
-const linkClasses = "inline-block py-1 text-sm font-medium text-white transition-colors hover:text-lavender";
+const linkClasses = "inline-block py-0.5 text-[0.9375rem] leading-[1.8] text-white transition-colors hover:text-lavender";
 const legalLinkClasses = "transition-colors hover:text-white";
 
 /** Dark footer matching the reference: closing call to action, link columns and a logo/legal row. */
@@ -25,10 +25,10 @@ export function Footer({ site, footer, cta }: FooterProps) {
           count={6}
         />
         <Container className="relative flex flex-col items-center gap-5 pt-16 pb-14 text-center sm:pt-20">
-          <h2 id="footer-cta-title" className="text-4xl font-bold text-lavender sm:text-5xl">
+          <h2 id="footer-cta-title" className="text-4xl leading-[1.5] font-bold text-lavender sm:text-[3.125rem]">
             {cta.title}
           </h2>
-          <p className="max-w-3xl text-[0.9375rem] font-medium text-white">{cta.description}</p>
+          <p className="max-w-3xl text-[1.0625rem] text-white">{cta.description}</p>
           <Button
             href={cta.cta.href}
             size="lg"
@@ -46,7 +46,7 @@ export function Footer({ site, footer, cta }: FooterProps) {
           <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-5">
             {footer.columns.map((column) => (
               <nav key={column.title} aria-label={column.title}>
-                <h2 className="text-base font-bold text-lavender">{column.title}</h2>
+                <h2 className="text-xl font-bold text-lavender">{column.title}</h2>
                 <ul className="mt-4 flex flex-col gap-1.5">
                   {column.links.map((link) => (
                     <li key={link.label}>
@@ -62,7 +62,7 @@ export function Footer({ site, footer, cta }: FooterProps) {
 
           <div className="mt-16 flex flex-col items-center gap-8 md:flex-row md:items-end md:justify-between">
             <Logo name={site.name} logo={footer.logo} className="[&_img]:h-14" />
-            <div className="flex flex-col items-center gap-3 text-xs text-white/55 md:items-end">
+            <div className="flex flex-col items-center gap-3 text-sm font-light text-white/38 md:items-end">
               <ul className="flex gap-2" aria-label="Social media">
                 {footer.social.map((social) => (
                   <li key={social.platform}>

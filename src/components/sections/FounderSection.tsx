@@ -22,12 +22,12 @@ export function FounderSection({ founder }: FounderSectionProps) {
           className="mx-auto h-auto w-full max-w-md self-end"
         />
         <div className="flex flex-col items-start gap-5 pb-14 lg:py-16">
-          <p className="text-lg leading-snug font-semibold text-ink">{founder.tagline}</p>
-          <h2 id="founder-title" className="text-3xl font-medium sm:text-4xl">
+          <p className="text-xl leading-[1.5] font-semibold text-body sm:text-[1.3125rem]">{founder.tagline}</p>
+          <h2 id="founder-title" className="text-3xl leading-[1.2] font-medium sm:text-4xl lg:text-[2.4375rem]">
             {founder.title}
             <span className="mt-1 block font-bold text-teal uppercase">{founder.name}</span>
           </h2>
-          <p className="max-w-xl">{founder.bio}</p>
+          <p className="max-w-xl text-[1.0625rem] text-ink">{founder.bio}</p>
           <Button href={founder.cta.href} trailingIcon="chevron-right" className="mt-2">
             {founder.cta.label}
           </Button>

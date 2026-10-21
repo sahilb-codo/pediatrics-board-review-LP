@@ -14,7 +14,7 @@ export function AnnouncementBar({ announcement }: AnnouncementBarProps) {
       aria-label="Announcement"
       className="sticky top-0 z-50 h-(--announcement-height) bg-linear-to-r from-violet via-[#6a24d6] to-[#7b2fd6] text-white"
     >
-      <Container className="flex h-full flex-wrap content-center items-center justify-center gap-x-4 gap-y-1.5 text-center text-[0.8125rem] leading-snug font-bold sm:text-[0.9375rem]">
+      <Container className="flex h-full flex-wrap content-center items-center justify-center gap-x-4 gap-y-1.5 text-center text-[0.8125rem] leading-[1.6] font-extrabold tracking-[0.2px] sm:text-[1.0625rem]">
         <p>
           <span className="uppercase">{announcement.text}</span>
           <span aria-hidden="true" className="mx-2">
@@ -25,9 +25,10 @@ export function AnnouncementBar({ announcement }: AnnouncementBarProps) {
         <Button
           href={announcement.cta.href}
           variant="accent"
-          size="sm"
+          size="promo"
+          weight="extrabold"
           trailingIcon="arrow-right"
-          className="h-8 uppercase sm:h-9"
+          className="uppercase"
         >
           {announcement.cta.label}
         </Button>

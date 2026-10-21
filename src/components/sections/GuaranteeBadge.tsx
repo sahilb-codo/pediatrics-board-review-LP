@@ -19,7 +19,7 @@ export function GuaranteeBadge({ guarantee }: GuaranteeBadgeProps) {
         height={image.height}
         className="size-16 shrink-0 sm:size-18"
       />
-      <p className="text-sm leading-snug font-bold text-ink uppercase sm:text-[0.9375rem]">
+      <p className="text-base leading-[1.6] font-bold text-body uppercase sm:text-lg">
         <HighlightText text={text} highlight={guarantee.highlight} className="text-brand" />
       </p>
     </div>

@@ -12,7 +12,8 @@
   --violet: #5b21d1;
   --violet-strong: #4716ad;
   --navy: #100b47;
-  --teal: #00808f;
+  --teal: #008195;
+  --plum: #6d28d9;
   --amber: #f5a524;
   --orange: #f76a0c;
 
@@ -25,8 +26,9 @@
   --cream-line: #f3e7b4;
 
   /* Neutrals */
-  --ink: #1a1a1a;
-  --body: #3b3f47;
+  --ink: #000000;
+  --body: #252525;
+  --soft: #575050;
   --muted: #686e77;
   --line: #ebebeb;
   --surface: #fafafa;
@@ -52,6 +54,7 @@
   --color-violet-strong: var(--violet-strong);
   --color-navy: var(--navy);
   --color-teal: var(--teal);
+  --color-plum: var(--plum);
   --color-amber: var(--amber);
   --color-orange: var(--orange);
   --color-lavender: var(--lavender);
@@ -62,12 +65,19 @@
   --color-cream-line: var(--cream-line);
   --color-ink: var(--ink);
   --color-body: var(--body);
+  --color-soft: var(--soft);
   --color-muted: var(--muted);
   --color-line: var(--line);
   --color-surface: var(--surface);
   --color-surface-strong: var(--surface-strong);
 
   --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  /* The reference sets body-size text (14–20px) at a 1.6 line height. */
+  --text-sm--line-height: 1.6;
+  --text-base--line-height: 1.6;
+  --text-lg--line-height: 1.6;
+  --text-xl--line-height: 1.6;
 
   --container-site: 82.5rem;
 
@@ -88,7 +98,7 @@
     background: var(--white);
     color: var(--body);
     font-family: var(--font-sans);
-    line-height: 1.65;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -98,7 +108,7 @@
   h3,
   h4 {
     color: var(--ink);
-    line-height: 1.2;
+    line-height: 1.25;
     text-wrap: balance;
   }
 

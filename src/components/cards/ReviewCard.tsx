@@ -39,8 +39,8 @@ export function ReviewCard({ review, platform }: ReviewCardProps) {
           className="size-10 shrink-0 rounded-full"
         />
         <div className="min-w-0 flex-1">
-          <h3 className="truncate text-[0.9375rem] font-semibold text-ink">{review.name}</h3>
-          <time dateTime={review.date} className="text-xs text-muted">
+          <h3 className="truncate text-[0.9375rem] leading-[1.4] font-semibold text-ink">{review.name}</h3>
+          <time dateTime={review.date} className="text-[0.8125rem] leading-[1.4] text-[#767676]">
             {formatDate(review.date)}
           </time>
         </div>

@@ -16,10 +16,10 @@ export function QuizCta({ quiz }: QuizCtaProps) {
     <section aria-labelledby="quiz-title" className="overflow-hidden bg-navy text-white">
       <Container className="grid items-center gap-8 pt-14 lg:grid-cols-2 lg:pt-10">
         <div className="flex flex-col items-start gap-4 lg:pb-10">
-          <h2 id="quiz-title" className="text-4xl font-medium text-lavender sm:text-5xl">
-            <HighlightText text={quiz.title} highlight={quiz.highlight} className="font-semibold text-white" />
+          <h2 id="quiz-title" className="text-4xl leading-[1.25] font-normal text-lavender sm:text-5xl lg:text-[3.1875rem]">
+            <HighlightText text={quiz.title} highlight={quiz.highlight} className="text-white" />
           </h2>
-          <p className="text-lg font-semibold text-white">{quiz.description}</p>
+          <p className="text-lg font-semibold text-white sm:text-xl">{quiz.description}</p>
           <Button href={quiz.cta.href} trailingIcon="chevron-right" className="mt-6">
             {quiz.cta.label}
           </Button>

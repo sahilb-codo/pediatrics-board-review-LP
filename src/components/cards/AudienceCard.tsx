@@ -37,10 +37,15 @@ export function AudienceCard({ audience }: AudienceCardProps) {
         />
       ) : null}
       <div className={cn("flex flex-1 flex-col p-6 sm:p-8", !image && "sm:pt-7")}>
-        <h3 id={`${audience.id}-title`} className={cn("font-semibold text-ink", image ? "text-2xl" : "text-xl")}>
+        <h3 id={`${audience.id}-title`} className={cn("font-bold text-ink", image ? "text-2xl sm:text-[1.5625rem]" : "text-xl leading-[1.2] sm:text-[1.375rem]")}>
           {audience.title}
         </h3>
-        <CheckList items={audience.points} className="mt-5 mb-8" bubbleClassName={image ? "bg-white" : "bg-lilac"} />
+        <CheckList
+          items={audience.points}
+          className="mt-5 mb-8"
+          bubbleClassName={image ? "bg-white" : "bg-lilac"}
+          textClassName={image ? "text-base leading-[1.6]" : "text-[0.9375rem] leading-[1.67]"}
+        />
         <Button href={audience.cta.href} className="mt-auto self-start">
           {audience.cta.label}
         </Button>

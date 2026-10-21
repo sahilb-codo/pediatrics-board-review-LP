@@ -12,9 +12,11 @@ type SectionHeadingProps = {
   as?: "h1" | "h2" | "h3";
   id?: string;
   /** Weight of the non-highlighted title text. */
-  weight?: "medium" | "bold";
+  weight?: "medium" | "bold" | "extrabold";
   className?: string;
   titleClassName?: string;
+  /** Replaces the default font-size and line-height classes (avoids conflicting size utilities). */
+  sizeClassName?: string;
   highlightClassName?: string;
 };
 
@@ -31,6 +33,7 @@ export function SectionHeading({
   weight = "medium",
   className,
   titleClassName,
+  sizeClassName = "text-3xl leading-[1.25] sm:text-4xl lg:text-[2.75rem]",
   highlightClassName,
 }: SectionHeadingProps) {
   const centered = align === "center";
@@ -38,7 +41,7 @@ export function SectionHeading({
   return (
     <div className={cn("flex flex-col gap-4", centered && "items-center text-center", className)}>
       {eyebrow ? (
-        <p className="flex flex-col items-center gap-3 text-sm font-bold tracking-[0.12em] text-violet uppercase sm:text-base">
+        <p className="flex flex-col items-center gap-3 text-lg font-extrabold tracking-[1px] text-plum uppercase sm:text-[1.375rem]">
           {eyebrow}
           {centered ? <span aria-hidden="true" className="h-1 w-24 rounded-full bg-amber" /> : null}
         </p>
@@ -46,8 +49,8 @@ export function SectionHeading({
       <Heading
         id={id}
         className={cn(
-          "text-3xl sm:text-4xl lg:text-[2.75rem]",
-          weight === "bold" ? "font-bold" : "font-medium",
+          sizeClassName,
+          weight === "extrabold" ? "font-extrabold" : weight === "bold" ? "font-bold" : "font-medium",
           tone === "light" && "text-white",
           titleClassName,
         )}
@@ -55,7 +58,7 @@ export function SectionHeading({
         <HighlightText text={title} highlight={highlight} className={highlightClassName} />
       </Heading>
       {description ? (
-        <p className={cn("max-w-xl text-base", tone === "light" ? "text-white/80" : "text-body")}>{description}</p>
+        <p className={cn("max-w-xl text-base", tone === "light" ? "text-white/80" : "text-ink")}>{description}</p>
       ) : null}
     </div>
   );

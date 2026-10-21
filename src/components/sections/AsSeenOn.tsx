@@ -10,7 +10,7 @@ export function AsSeenOn({ asSeenOn }: AsSeenOnProps) {
   return (
     <section aria-labelledby="as-seen-on-title" className="bg-navy py-12 text-white sm:py-14">
       <Container className="flex flex-col items-center gap-8 text-center">
-        <h2 id="as-seen-on-title" className="text-lg font-semibold text-white">
+        <h2 id="as-seen-on-title" className="text-xl leading-[1.5] font-semibold text-sky">
           {asSeenOn.title}
         </h2>
         <ul className="flex flex-wrap items-center justify-center gap-x-14 gap-y-8">

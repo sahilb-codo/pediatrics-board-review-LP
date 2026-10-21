@@ -18,11 +18,11 @@ export function QuickPaths({ paths }: QuickPathsProps) {
         <ul className="grid divide-y divide-[#d6bdea] md:grid-cols-3 md:divide-x md:divide-y-0">
           {paths.map((path) => (
             <li key={path.id} className="flex flex-col py-6 md:px-8 md:py-8 md:first:pl-0">
-              <h3 className="text-base font-semibold text-ink">{path.question}</h3>
-              <p className="mt-1 text-sm text-body">{path.label}</p>
+              <h3 className="text-lg leading-[1.5] font-bold text-ink sm:text-[1.1875rem]">{path.question}</h3>
+              <p className="mt-1 text-[0.9375rem] text-body">{path.label}</p>
               <Link
                 href={path.cta.href}
-                className="group mt-3 inline-flex items-center gap-1.5 self-start py-1 text-sm font-medium text-brand hover:text-brand-strong"
+                className="group mt-3 inline-flex items-center gap-1.5 self-start py-1 text-base font-medium text-brand hover:text-brand-strong"
               >
                 {path.cta.label}
                 <Icon

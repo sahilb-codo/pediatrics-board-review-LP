@@ -22,7 +22,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
           className="aspect-[3/2] h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
         />
       </div>
-      <h3 className="mt-5 text-base leading-snug font-bold text-ink">
+      <h3 className="mt-5 text-base leading-[1.6] font-bold text-ink">
         <Link
           href={article.href}
           className="after:absolute after:inset-0 after:rounded-xl group-hover:text-brand focus-visible:outline-none focus-visible:after:outline-3 focus-visible:after:outline-offset-4 focus-visible:after:outline-brand"
@@ -30,7 +30,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
           {article.title}
         </Link>
       </h3>
-      <p className="mt-3 text-sm leading-relaxed text-body">{article.excerpt}</p>
+      <p className="mt-3 text-[0.8125rem] leading-[1.6] text-body">{article.excerpt}</p>
     </article>
   );
 }
