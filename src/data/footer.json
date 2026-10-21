@@ -1,75 +1,174 @@
 {
-  "description": "We help pediatricians pass the boards, even if they've been struggling for years.",
-  "contact": {
-    "label": "Questions? We're here to help.",
-    "cta": { "label": "Contact Us", "href": "/coming-soon" }
+  "logo": {
+    "src": "/images/brand/pbr-logo-white.webp",
+    "alt": "Pediatrics Board Review",
+    "width": 1710,
+    "height": 532
   },
   "columns": [
     {
       "title": "Quick Links",
       "links": [
-        { "label": "Residency", "href": "/#residency-partnerships" },
-        { "label": "Initial Certification", "href": "/#initial-certification" },
-        { "label": "MOC & MOCA-Peds", "href": "/#moca-peds" },
-        { "label": "CME/MOC", "href": "/#cme-specials" },
-        { "label": "Login", "href": "/coming-soon" }
+        {
+          "label": "Residency",
+          "href": "/#residency-partnerships"
+        },
+        {
+          "label": "Initial Certification",
+          "href": "/#initial-certification"
+        },
+        {
+          "label": "MOC & MOCA-Peds",
+          "href": "/#moca-peds"
+        },
+        {
+          "label": "CME/MOC",
+          "href": "/#cme-specials"
+        },
+        {
+          "label": "Login",
+          "href": "/coming-soon"
+        }
       ]
     },
     {
       "title": "Products",
       "links": [
-        { "label": "All Access Pass", "href": "/coming-soon" },
-        { "label": "Test-Taking Strategies", "href": "/#our-approach" },
-        { "label": "MOC & MOCA-Peds", "href": "/#preorder" },
-        { "label": "CME & MOC Credits", "href": "/#cme-specials" },
-        { "label": "All Products", "href": "/coming-soon" }
+        {
+          "label": "All Access Pass",
+          "href": "/coming-soon"
+        },
+        {
+          "label": "Test-Taking Strategies",
+          "href": "/#our-approach"
+        },
+        {
+          "label": "MOC & MOCA-Peds",
+          "href": "/#preorder"
+        },
+        {
+          "label": "CME & MOC Credits",
+          "href": "/#cme-specials"
+        },
+        {
+          "label": "All Products",
+          "href": "/coming-soon"
+        }
       ]
     },
     {
       "title": "Resources",
       "links": [
-        { "label": "Blog", "href": "/#articles" },
-        { "label": "Testimonials", "href": "/#reviews" },
-        { "label": "Community Forum", "href": "/coming-soon" },
-        { "label": "Tools to Help You Pass", "href": "/#free-resources" },
-        { "label": "100% Pass Guarantee", "href": "/coming-soon" },
-        { "label": "Refund Policy", "href": "/coming-soon" }
+        {
+          "label": "Blog",
+          "href": "/#articles"
+        },
+        {
+          "label": "Testimonials",
+          "href": "/#reviews"
+        },
+        {
+          "label": "Community Forum",
+          "href": "/coming-soon"
+        },
+        {
+          "label": "Tools to Help You Pass",
+          "href": "/#free-resources"
+        },
+        {
+          "label": "100% Pass Guarantee",
+          "href": "/coming-soon"
+        },
+        {
+          "label": "Refund Policy",
+          "href": "/coming-soon"
+        }
       ]
     },
     {
       "title": "Article",
       "links": [
-        { "label": "Failed Pediatric Boards", "href": "/#articles" },
-        { "label": "Passing The Boards", "href": "/#articles" },
-        { "label": "American Board of Pediatrics", "href": "/#articles" },
-        { "label": "Pediatric Mnemonics", "href": "/#articles" },
-        { "label": "Roadmap To Success", "href": "/#articles" },
-        { "label": "Study Schedule & Tips", "href": "/#articles" }
+        {
+          "label": "Failed Pediatric Boards",
+          "href": "/#articles"
+        },
+        {
+          "label": "Passing The Boards",
+          "href": "/#articles"
+        },
+        {
+          "label": "American Board of Pediatrics",
+          "href": "/#articles"
+        },
+        {
+          "label": "Pediatric Mnemonics",
+          "href": "/#articles"
+        },
+        {
+          "label": "Roadmap To Success",
+          "href": "/#articles"
+        },
+        {
+          "label": "Study Schedule & Tips",
+          "href": "/#articles"
+        }
       ]
     },
     {
       "title": "Company",
       "links": [
-        { "label": "About", "href": "/#founder" },
-        { "label": "Contact", "href": "/coming-soon" },
-        { "label": "FAQ", "href": "/coming-soon" },
-        { "label": "Terms and Conditions", "href": "/coming-soon" },
-        { "label": "Privacy", "href": "/coming-soon" }
+        {
+          "label": "About",
+          "href": "/#founder"
+        },
+        {
+          "label": "Contact",
+          "href": "/coming-soon"
+        },
+        {
+          "label": "FAQ",
+          "href": "/coming-soon"
+        },
+        {
+          "label": "Terms and Conditions",
+          "href": "/coming-soon"
+        },
+        {
+          "label": "Privacy",
+          "href": "/coming-soon"
+        }
       ]
     }
   ],
   "social": [
-    { "platform": "facebook", "label": "Facebook", "href": "https://www.facebook.com/pediatricsboardreview" },
-    { "platform": "x", "label": "X", "href": "https://x.com/PedsBoardReview" },
-    { "platform": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/pediatrics-board-review" },
-    { "platform": "instagram", "label": "Instagram", "href": "https://www.instagram.com/pedsboardreview" },
-    { "platform": "youtube", "label": "YouTube", "href": "https://www.youtube.com/@pediatricboardreview" }
+    {
+      "platform": "facebook",
+      "label": "Facebook",
+      "href": "https://www.facebook.com/pediatricsboardreview"
+    },
+    {
+      "platform": "x",
+      "label": "X (Twitter)",
+      "href": "https://x.com/PedsBoardReview"
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/pediatrics-board-review"
+    }
   ],
   "legal": {
-    "copyright": "© 2026 Pediatrics Board Review. All rights reserved.",
+    "notice": "All rights reserved",
     "links": [
-      { "label": "*Terms & Conditions Apply", "href": "/coming-soon" },
-      { "label": "Privacy Policy", "href": "/coming-soon" }
-    ]
+      {
+        "label": "*Terms & Conditions Apply",
+        "href": "/coming-soon"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/coming-soon"
+      }
+    ],
+    "copyright": "© 2026 Pediatrics Board Review. All rights reserved."
   }
 }

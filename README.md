@@ -61,7 +61,7 @@ does nothing.
 src/
   app/                 layout (header, footer, metadata), homepage, /coming-soon placeholder
   components/
-    layout/            AnnouncementBar, Header, DesktopNavigation, MobileNavigation, Logo, Footer
+    layout/            AnnouncementBar, Header, DesktopNavigation, MobileNavigation, Logo, Footer, BackToTop
     sections/          One component per homepage section
     cards/             ProductCard, AudienceCard, FeatureCard, ReviewCard, TestimonialCard, ArticleCard ...
     ui/                Button, Container, SectionHeading, Icon, CheckList, carousels, ...

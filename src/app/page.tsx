@@ -2,7 +2,6 @@ import { ApproachSection } from "@/components/sections/ApproachSection";
 import { ArticlesSection } from "@/components/sections/ArticlesSection";
 import { AsSeenOn } from "@/components/sections/AsSeenOn";
 import { Benefits } from "@/components/sections/Benefits";
-import { FinalCta } from "@/components/sections/FinalCta";
 import { FounderSection } from "@/components/sections/FounderSection";
 import { FreeResources } from "@/components/sections/FreeResources";
 import { Hero } from "@/components/sections/Hero";
@@ -32,7 +31,6 @@ export default function Home() {
       <FounderSection founder={founder} />
       <ArticlesSection articles={articles} />
       <FreeResources resources={cta.freeResources} />
-      <FinalCta final={cta.final} />
     </>
   );
 }

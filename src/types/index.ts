@@ -264,15 +264,13 @@ export type FooterColumn = {
 };
 
 export type FooterContent = {
-  description: string;
-  contact: {
-    label: string;
-    cta: LinkItem;
-  };
+  /** Light version of the logo for the dark footer. */
+  logo: ImageAsset;
   columns: FooterColumn[];
   social: SocialLink[];
   legal: {
-    copyright: string;
+    notice: string;
     links: LinkItem[];
+    copyright: string;
   };
 };

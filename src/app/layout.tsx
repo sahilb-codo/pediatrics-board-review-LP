@@ -1,9 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
+import { BackToTop } from "@/components/layout/BackToTop";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
-import { footer, navigation, site } from "@/lib/content";
+import { cta, footer, navigation, site } from "@/lib/content";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -39,7 +40,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <AnnouncementBar announcement={site.announcement} />
         <Header site={site} navigation={navigation} />
         <main id="main-content">{children}</main>
-        <Footer site={site} footer={footer} />
+        <Footer site={site} footer={footer} cta={cta.final} />
+        <BackToTop />
       </body>
     </html>
   );

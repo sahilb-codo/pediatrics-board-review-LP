@@ -26,6 +26,8 @@ type BaseProps = {
   size?: ButtonSize;
   /** Optional icon rendered after the label (e.g. a chevron). */
   trailingIcon?: IconName;
+  /** Places the trailing icon inside a translucent circle (reference footer CTA style). */
+  iconInCircle?: boolean;
   className?: string;
   children: ReactNode;
 };
@@ -48,12 +50,17 @@ export function buttonClasses(variant: ButtonVariant = "primary", size: ButtonSi
 }
 
 /** Pill-shaped call to action. Renders a link when `href` is provided, otherwise a <button>. */
-export function Button({ variant, size, trailingIcon, className, children, ...rest }: ButtonProps) {
+export function Button({ variant, size, trailingIcon, iconInCircle, className, children, ...rest }: ButtonProps) {
   const classes = buttonClasses(variant, size, className);
+  const icon = trailingIcon ? <Icon name={trailingIcon} className="size-4" strokeWidth={2.5} /> : null;
   const content = (
     <>
       <span>{children}</span>
-      {trailingIcon ? <Icon name={trailingIcon} className="size-4" strokeWidth={2.5} /> : null}
+      {icon && iconInCircle ? (
+        <span className="grid size-9 place-items-center rounded-full bg-white/25">{icon}</span>
+      ) : (
+        icon
+      )}
     </>
   );
 

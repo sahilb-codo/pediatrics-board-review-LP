@@ -8,7 +8,6 @@ const paths = {
   "arrow-right": <path d="M5 12h14m-6-6 6 6-6 6" />,
   "arrow-up-right": <path d="M7 17 17 7M8 7h9v9" />,
   "arrow-up": <path d="M12 19V5m-6 6 6-6 6 6" />,
-  mail: <path d="M4 6h16v12H4zm0 0 8 7 8-7" />,
   check: <path d="m5 12.5 4.5 4.5L19 7.5" />,
   menu: <path d="M4 7h16M4 12h16M4 17h16" />,
   close: <path d="M6 6l12 12M18 6 6 18" />,
