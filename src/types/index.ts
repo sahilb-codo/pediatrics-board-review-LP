@@ -196,6 +196,7 @@ export type Article = {
   excerpt: string;
   category: string;
   href: string;
+  image: ImageAsset;
 };
 
 export type FeaturedArticle = Article & {
@@ -203,7 +204,6 @@ export type FeaturedArticle = Article & {
   author: string;
   /** ISO date (YYYY-MM-DD). */
   date: string;
-  image: ImageAsset;
 };
 
 export type ArticlesContent = {
@@ -243,7 +243,10 @@ export type CtaContent = {
     };
     submitLabel: string;
     demoMessage: string;
+    /** Shown after submit. Must not claim anything was sent or stored. */
+    submittedMessage: string;
     resources: string[];
+    images: ImageAsset[];
   };
   final: {
     title: string;

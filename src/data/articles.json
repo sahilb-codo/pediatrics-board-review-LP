@@ -11,8 +11,8 @@
     "date": "2025-12-02",
     "href": "/coming-soon",
     "image": {
-      "src": "/images/article-featured.svg",
-      "alt": "Illustration of a celebration with confetti around an exam results letter",
+      "src": "/images/articles/featured-results.svg",
+      "alt": "Illustration of an exam results letter with a check mark, surrounded by confetti",
       "width": 640,
       "height": 360
     }
@@ -23,42 +23,78 @@
       "title": "Failed the Pediatric Boards? A Step-by-Step Recovery Plan",
       "excerpt": "A structured approach to regrouping after a failed attempt: how to diagnose what went wrong, build a realistic study schedule and practice test-taking strategy.",
       "category": "Failed Pediatric Boards",
-      "href": "/coming-soon"
+      "href": "/coming-soon",
+      "image": {
+        "src": "/images/articles/failed-boards-recovery-plan.webp",
+        "alt": "A rubber stamp marking a page as failed",
+        "width": 358,
+        "height": 253
+      }
     },
     {
       "id": "practice-questions-vs-study-material",
       "title": "Practice Questions vs. Study Material: Using Each the Right Way",
       "excerpt": "Many pediatricians treat question banks as their primary study resource. Learn the difference between practicing questions and actually learning the content.",
       "category": "Study Schedule & Tips",
-      "href": "/coming-soon"
+      "href": "/coming-soon",
+      "image": {
+        "src": "/images/articles/practice-questions-vs-study-material.webp",
+        "alt": "A doctor weighing a green check mark against a red cross",
+        "width": 358,
+        "height": 238
+      }
     },
     {
       "id": "how-many-practice-questions",
       "title": "How Many Practice Questions Do You Really Need?",
       "excerpt": "Is there a magic number of practice questions? We break down how to use question banks efficiently and when more questions stop helping.",
       "category": "Study Schedule & Tips",
-      "href": "/coming-soon"
+      "href": "/coming-soon",
+      "image": {
+        "src": "/images/articles/how-many-practice-questions.webp",
+        "alt": "A thoughtful doctor considering a question",
+        "width": 346,
+        "height": 243
+      }
     },
     {
       "id": "test-taking-strategies",
       "title": "Test-Taking Strategies for Medical Board Exams",
       "excerpt": "Knowing the topics is only half the battle. Learn three strategies you can use right away to break down, process and answer questions with confidence.",
       "category": "Passing The Boards",
-      "href": "/coming-soon"
+      "href": "/coming-soon",
+      "image": {
+        "src": "/images/articles/test-taking-strategies.webp",
+        "alt": "Puzzle pieces spelling out the word strategy",
+        "width": 327,
+        "height": 218
+      }
     },
     {
       "id": "compare-review-courses",
       "title": "How to Compare Pediatric Board Review Courses",
       "excerpt": "What to look for in a review course, what tends to work, what doesn't and how to choose an option that fits your schedule and learning style.",
       "category": "Roadmap To Success",
-      "href": "/coming-soon"
+      "href": "/coming-soon",
+      "image": {
+        "src": "/images/articles/compare-review-courses.webp",
+        "alt": "Thumbs-down and thumbs-up buttons representing pros and cons",
+        "width": 357,
+        "height": 240
+      }
     },
     {
       "id": "pediatric-mnemonics",
       "title": "Creating Memorable Pediatric Mnemonics",
       "excerpt": "Rote memorization doesn't scale to thousands of topics. Learn how to create simple, effective mnemonics that hold up under exam pressure.",
       "category": "Pediatric Mnemonics",
-      "href": "/coming-soon"
+      "href": "/coming-soon",
+      "image": {
+        "src": "/images/articles/pediatric-mnemonics.webp",
+        "alt": "A light bulb icon representing a memorable idea",
+        "width": 358,
+        "height": 236
+      }
     }
   ]
 }

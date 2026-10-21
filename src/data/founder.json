@@ -4,11 +4,14 @@
   "name": "Dr. Jordan Avery",
   "bio": "After a difficult first attempt at the pediatric boards, Dr. Jordan Avery rebuilt their study approach around efficiency, structure and repetition. That experience became the foundation of PedsReady: a step-by-step system designed to help pediatricians study smarter, practice with purpose and walk into exam day prepared.",
   "note": "Dr. Jordan Avery is a fictional founder created for this demo.",
-  "cta": { "label": "Get Started", "href": "#who-we-help" },
+  "cta": {
+    "label": "Get Started",
+    "href": "#who-we-help"
+  },
   "image": {
-    "src": "/images/founder.svg",
+    "src": "/images/hero-coach.svg",
     "alt": "Illustrated portrait of the fictional founder, Dr. Jordan Avery",
-    "width": 480,
+    "width": 520,
     "height": 520
   }
 }

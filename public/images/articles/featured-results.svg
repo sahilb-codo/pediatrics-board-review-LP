@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ddf6fc"/>
+      <stop offset="1" stop-color="#f9eeff"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#sky)"/>
+  <!-- Confetti -->
+  <g opacity="0.9">
+    <rect x="70" y="50" width="14" height="6" rx="3" fill="#b140ec" transform="rotate(30 77 53)"/>
+    <rect x="140" y="110" width="14" height="6" rx="3" fill="#f5a524" transform="rotate(-20 147 113)"/>
+    <rect x="520" y="60" width="14" height="6" rx="3" fill="#00808f" transform="rotate(45 527 63)"/>
+    <rect x="560" y="150" width="14" height="6" rx="3" fill="#b140ec" transform="rotate(-35 567 153)"/>
+    <rect x="96" y="250" width="14" height="6" rx="3" fill="#5b21d1" transform="rotate(15 103 253)"/>
+    <rect x="540" y="270" width="14" height="6" rx="3" fill="#f76a0c" transform="rotate(60 547 273)"/>
+    <circle cx="190" cy="60" r="6" fill="#f5a524"/>
+    <circle cx="470" cy="110" r="5" fill="#5b21d1"/>
+    <circle cx="60" cy="170" r="5" fill="#00808f"/>
+    <circle cx="590" cy="220" r="6" fill="#f5a524"/>
+    <circle cx="450" cy="40" r="4" fill="#b140ec"/>
+    <circle cx="170" cy="300" r="5" fill="#b140ec"/>
+  </g>
+  <!-- Envelope -->
+  <rect x="200" y="150" width="240" height="150" rx="14" fill="#100b47"/>
+  <!-- Letter -->
+  <rect x="226" y="70" width="188" height="170" rx="10" fill="#ffffff" stroke="#e9d3f5" stroke-width="3"/>
+  <rect x="246" y="92" width="96" height="10" rx="5" fill="#100b47"/>
+  <rect x="246" y="112" width="148" height="7" rx="3.5" fill="#c9cdd8"/>
+  <rect x="246" y="126" width="128" height="7" rx="3.5" fill="#c9cdd8"/>
+  <circle cx="320" cy="180" r="30" fill="#f9eeff" stroke="#b140ec" stroke-width="4"/>
+  <path d="m305 180 10 10 20-22" fill="none" stroke="#b140ec" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M200 190l120 70 120-70v96a14 14 0 0 1-14 14H214a14 14 0 0 1-14-14z" fill="#2a2470"/>
+  <!-- Ribbon -->
+  <path d="M420 250l26 0-8 22 8 22h-26z" fill="#f5a524"/>
+  <circle cx="420" cy="250" r="26" fill="#f5c84c" stroke="#e0ad1f" stroke-width="3"/>
+  <path d="m420 236 4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1z" fill="#ffffff"/>
+</svg>

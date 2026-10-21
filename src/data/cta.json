@@ -3,12 +3,15 @@
     "title": "Not sure where to start?",
     "highlight": "where",
     "description": "Take our quick quiz and get a recommended study path",
-    "cta": { "label": "Get Started", "href": "#who-we-help" },
+    "cta": {
+      "label": "Get Started",
+      "href": "#who-we-help"
+    },
     "image": {
-      "src": "/images/quiz-guide.svg",
-      "alt": "Illustration of a friendly pediatrician pointing toward the quiz",
-      "width": 480,
-      "height": 360
+      "src": "/images/quiz-pediatrician.webp",
+      "alt": "Smiling pediatrician with a stethoscope pointing toward the quiz",
+      "width": 890,
+      "height": 631
     }
   },
   "freeResources": {
@@ -21,11 +24,33 @@
     },
     "submitLabel": "Send me the chapters",
     "demoMessage": "This is a demo form. Nothing is submitted, sent or stored.",
-    "resources": ["Sample GI chapter (PDF)", "Sample dermatology chapter (PDF)", "Test-taking strategy primer"]
+    "resources": [
+      "Sample GI chapter (PDF)",
+      "Sample dermatology chapter (PDF)",
+      "Test-taking strategy primer"
+    ],
+    "submittedMessage": "Thanks! This is a demo, so your details were not sent or saved.",
+    "images": [
+      {
+        "src": "/images/resources/sample-gi-chapter.webp",
+        "alt": "Preview of the sample GI chapter showing a digestive system illustration",
+        "width": 549,
+        "height": 360
+      },
+      {
+        "src": "/images/resources/sample-dermatology-chapter.webp",
+        "alt": "Preview of the sample dermatology chapter showing a skin condition photo",
+        "width": 549,
+        "height": 360
+      }
+    ]
   },
   "final": {
     "title": "Get Started",
     "description": "Take the first step toward passing your boards with clarity, confidence and a proven system.",
-    "cta": { "label": "Get Started", "href": "#who-we-help" }
+    "cta": {
+      "label": "Get Started",
+      "href": "#who-we-help"
+    }
   }
 }
