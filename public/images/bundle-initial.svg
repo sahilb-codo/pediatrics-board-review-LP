@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200">
+  <!-- Shadow -->
+  <ellipse cx="180" cy="186" rx="150" ry="8" fill="#100b47" opacity="0.08"/>
+  <!-- Laptop -->
+  <rect x="100" y="36" width="160" height="104" rx="8" fill="#1f1a2e"/>
+  <rect x="107" y="43" width="146" height="90" rx="3" fill="#ffffff"/>
+  <rect x="107" y="43" width="146" height="14" fill="#b140ec"/>
+  <rect x="115" y="64" width="62" height="40" rx="4" fill="#e9d3f5"/>
+  <circle cx="146" cy="84" r="10" fill="#b140ec"/>
+  <path d="M143 79v10l8-5z" fill="#ffffff"/>
+  <rect x="184" y="64" width="60" height="6" rx="3" fill="#100b47"/>
+  <rect x="184" y="76" width="52" height="5" rx="2.5" fill="#c9cdd8"/>
+  <rect x="184" y="86" width="56" height="5" rx="2.5" fill="#c9cdd8"/>
+  <rect x="184" y="96" width="40" height="5" rx="2.5" fill="#c9cdd8"/>
+  <rect x="115" y="112" width="129" height="5" rx="2.5" fill="#ddf6fc"/>
+  <rect x="115" y="121" width="90" height="5" rx="2.5" fill="#ddf6fc"/>
+  <path d="M84 140h192l-10 14H94z" fill="#cfd3de"/>
+  <rect x="160" y="140" width="40" height="4" rx="2" fill="#a7adbd"/>
+  <!-- Tablet -->
+  <rect x="28" y="78" width="76" height="98" rx="9" fill="#2c2f4a"/>
+  <rect x="34" y="84" width="64" height="86" rx="4" fill="#ffffff"/>
+  <rect x="34" y="84" width="64" height="12" fill="#5b21d1"/>
+  <rect x="40" y="102" width="52" height="5" rx="2.5" fill="#100b47"/>
+  <rect x="40" y="112" width="44" height="4" rx="2" fill="#c9cdd8"/>
+  <rect x="40" y="120" width="48" height="4" rx="2" fill="#c9cdd8"/>
+  <rect x="40" y="132" width="52" height="30" rx="4" fill="#f9eeff"/>
+  <path d="m46 154 10-10 8 6 12-14 10 10" fill="none" stroke="#b140ec" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Study guide book -->
+  <rect x="268" y="66" width="70" height="98" rx="5" fill="#b140ec"/>
+  <rect x="268" y="66" width="10" height="98" rx="3" fill="#7f1aa6"/>
+  <rect x="284" y="80" width="46" height="6" rx="3" fill="#ffffff"/>
+  <rect x="284" y="92" width="34" height="5" rx="2.5" fill="#ffffff" opacity="0.7"/>
+  <circle cx="307" cy="128" r="18" fill="#ffffff" opacity="0.95"/>
+  <path d="M302 120h10v6h6v10h-6v6h-10v-6h-6v-10h6z" fill="#b140ec"/>
+  <!-- Phone with audio -->
+  <rect x="236" y="112" width="40" height="70" rx="7" fill="#1f1a2e"/>
+  <rect x="240" y="118" width="32" height="58" rx="3" fill="#ffffff"/>
+  <circle cx="256" cy="138" r="10" fill="#f5a524"/>
+  <path d="M252 133v10l8-5z" fill="#ffffff"/>
+  <rect x="244" y="156" width="24" height="4" rx="2" fill="#c9cdd8"/>
+  <rect x="244" y="164" width="16" height="4" rx="2" fill="#b140ec"/>
+</svg>

@@ -11,7 +11,10 @@ type SectionHeadingProps = {
   tone?: "dark" | "light";
   as?: "h1" | "h2" | "h3";
   id?: string;
+  /** Weight of the non-highlighted title text. */
+  weight?: "medium" | "bold";
   className?: string;
+  titleClassName?: string;
 };
 
 /** Standard section title block: optional eyebrow, heading with accent words and supporting copy. */
@@ -24,7 +27,9 @@ export function SectionHeading({
   tone = "dark",
   as: Heading = "h2",
   id,
+  weight = "medium",
   className,
+  titleClassName,
 }: SectionHeadingProps) {
   const centered = align === "center";
 
@@ -39,8 +44,10 @@ export function SectionHeading({
       <Heading
         id={id}
         className={cn(
-          "text-3xl font-medium sm:text-4xl lg:text-[2.75rem]",
+          "text-3xl sm:text-4xl lg:text-[2.75rem]",
+          weight === "bold" ? "font-bold" : "font-medium",
           tone === "light" && "text-white",
+          titleClassName,
         )}
       >
         <HighlightText text={title} highlight={highlight} />
