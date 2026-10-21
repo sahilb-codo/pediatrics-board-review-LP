@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
+import { site } from "@/lib/content";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -10,8 +11,15 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "PedsReady Board Review",
-  description: "Pediatric board exam preparation courses, strategies and resources.",
+  title: site.title,
+  description: site.description,
+  applicationName: site.name,
+  openGraph: {
+    title: site.title,
+    description: site.description,
+    siteName: site.name,
+    type: "website",
+  },
 };
 
 export const viewport: Viewport = {

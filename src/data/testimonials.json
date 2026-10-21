@@ -1,0 +1,90 @@
+{
+  "disclaimer": "Demo content: the reviews and testimonials below are fictional placeholders, not real customer feedback.",
+  "reviews": {
+    "title": "Trusted by Pediatricians at Every Stage",
+    "highlight": "Every Stage",
+    "sourceLabel": "Member Reviews",
+    "badge": "Demo reviews",
+    "items": [
+      {
+        "id": "review-1",
+        "name": "Dr. Alex Morgan",
+        "date": "2026-01-14",
+        "rating": 5,
+        "text": "I was recertifying after a stressful year and needed structure more than anything. The weekly plan kept me on track, and the audio reviews made my commute useful again."
+      },
+      {
+        "id": "review-2",
+        "name": "Dr. Sam Patel",
+        "date": "2025-12-26",
+        "rating": 5,
+        "text": "Topics are organized by how often they show up, which changed how I studied. It's been helpful for the exam and for day-to-day clinic too."
+      },
+      {
+        "id": "review-3",
+        "name": "Dr. Taylor Brooks",
+        "date": "2025-12-16",
+        "rating": 5,
+        "text": "The test-taking strategy sessions were the missing piece for me. I finally understood how to read the question stem instead of getting lost in the vignette."
+      },
+      {
+        "id": "review-4",
+        "name": "Dr. Casey Nguyen",
+        "date": "2025-12-06",
+        "rating": 5,
+        "text": "Clear, concise and well organized. I liked that I could switch between reading, video and audio depending on my schedule."
+      },
+      {
+        "id": "review-5",
+        "name": "Dr. Jamie Ortiz",
+        "date": "2025-11-19",
+        "rating": 5,
+        "text": "The mnemonics are genuinely memorable. I still catch myself using a few of them on rounds."
+      },
+      {
+        "id": "review-6",
+        "name": "Dr. Riley Chen",
+        "date": "2025-11-02",
+        "rating": 5,
+        "text": "Studying with a group made a big difference. The shared schedule and study-buddy check-ins kept all of us accountable."
+      }
+    ]
+  },
+  "spotlight": {
+    "title": "Reviews",
+    "items": [
+      {
+        "id": "spotlight-1",
+        "headline": "It finally clicked for me!",
+        "quote": "I was never good at standardized exams and was considered an at-risk resident. The material was organized in a way that made it easy to review and remember, and the details were just right for the boards.",
+        "name": "Dr. Morgan Lee",
+        "role": "Board Certified Pediatrician",
+        "initials": "ML"
+      },
+      {
+        "id": "spotlight-2",
+        "headline": "Loved it!",
+        "quote": "I went through the course multiple times and that was all I needed. There are mnemonics throughout that I still remember to this day.",
+        "name": "Dr. Jordan Kim",
+        "role": "Board Certified Pediatrician",
+        "initials": "JK"
+      },
+      {
+        "id": "spotlight-3",
+        "headline": "I passed comfortably!",
+        "quote": "It struck the perfect balance between depth and brevity. I felt calm on exam day because I knew exactly how I had prepared.",
+        "name": "Dr. Avery Santos",
+        "role": "Board Certified Pediatrician",
+        "initials": "AS"
+      },
+      {
+        "id": "spotlight-4",
+        "headline": "Exactly the structure I needed!",
+        "quote": "It helped me solidify the core knowledge for the exam, and the support team answered every question I had along the way.",
+        "name": "Dr. Robin Walsh",
+        "role": "Board Certified Pediatrician",
+        "initials": "RW"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quiz": {
+    "title": "Not sure where to start?",
+    "highlight": "where",
+    "description": "Take our quick quiz and get a recommended study path",
+    "cta": { "label": "Get Started", "href": "#who-we-help" },
+    "image": {
+      "src": "/images/quiz-guide.svg",
+      "alt": "Illustration of a friendly pediatrician pointing toward the quiz",
+      "width": 480,
+      "height": 360
+    }
+  },
+  "freeResources": {
+    "eyebrow": "Free study resources",
+    "title": "Download two free sample chapters",
+    "description": "Get a sample GI chapter and dermatology chapter, plus our five-minute test-taking strategy primer.",
+    "fields": {
+      "name": "First name",
+      "email": "Email address"
+    },
+    "submitLabel": "Send me the chapters",
+    "demoMessage": "This is a demo form. Nothing is submitted, sent or stored.",
+    "resources": ["Sample GI chapter (PDF)", "Sample dermatology chapter (PDF)", "Test-taking strategy primer"]
+  },
+  "final": {
+    "title": "Get Started",
+    "description": "Take the first step toward passing your boards with clarity, confidence and a proven system.",
+    "cta": { "label": "Get Started", "href": "#who-we-help" }
+  }
+}

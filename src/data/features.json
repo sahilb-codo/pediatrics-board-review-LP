@@ -1,0 +1,81 @@
+{
+  "trustedBy": {
+    "lead": "Used by pediatricians who trained at programs like:",
+    "institutions": [
+      "Northbridge Children's Hospital",
+      "Lakeview University Medical Center",
+      "Harbor Point Pediatrics",
+      "Summit Valley Health",
+      "Riverside Academic Medicine"
+    ],
+    "note": "Institution names are fictional placeholders."
+  },
+  "approach": {
+    "title": "What if passing isn't about what you study, but how you study?",
+    "highlight": "but how you study?",
+    "paragraphs": [
+      "You're not alone. Even brilliant doctors struggle when they rely on the wrong approach.",
+      "Board review isn't just about cramming more content. It's about the strategy you use, the structure you follow and the support you get along the way.",
+      "We help you master all three, so you don't just study harder. You study smarter."
+    ],
+    "closing": "Join pediatricians who've found a smarter way to prepare.",
+    "cta": { "label": "Get Started", "href": "#who-we-help" },
+    "visual": {
+      "image": {
+        "src": "/images/approach-thinking.svg",
+        "alt": "Illustration of a thoughtful physician considering common study myths",
+        "width": 520,
+        "height": 560
+      },
+      "label": "Sound Like You?",
+      "bubbles": ["Strategy is fluff", "I've never failed – I'll be fine", "It wasn't me – it was the book"]
+    }
+  },
+  "asSeenOn": {
+    "title": "As Seen On",
+    "outlets": ["The Resident Report", "MedLearn Weekly", "Pediatric Practice Today"],
+    "note": "Media outlet names are fictional placeholders."
+  },
+  "benefits": {
+    "title": "Why Students Love Us:",
+    "highlight": "Love Us:",
+    "items": [
+      {
+        "id": "concise",
+        "icon": "clock",
+        "title": "Concise Content",
+        "description": "We cut the fluff and focus on the most frequently tested topics, saving you hours of study time."
+      },
+      {
+        "id": "simple",
+        "icon": "puzzle",
+        "title": "Complex Topics, Made Simple",
+        "description": "No overwhelming basic science. Just clear, easy-to-understand explanations that stick."
+      },
+      {
+        "id": "structured",
+        "icon": "rocket",
+        "title": "Proven Structure",
+        "description": "A step-by-step study system that tells you what to review, when to review it and how to practice."
+      },
+      {
+        "id": "guarantee",
+        "icon": "shield",
+        "title": "Pass Guarantee",
+        "description": "If you don't pass on your first try, you can request a refund under the guarantee terms."
+      },
+      {
+        "id": "multimodal",
+        "icon": "book",
+        "title": "Multimodal Learning",
+        "description": "Learn your way with video, audio, print and digital resources that work together seamlessly."
+      },
+      {
+        "id": "mastery",
+        "icon": "sparkle",
+        "title": "Built for Mastery",
+        "description": "Repetition is built in. Every module is designed to help you review and retain what matters most."
+      }
+    ]
+  }
+}

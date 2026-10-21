@@ -1,0 +1,51 @@
+{
+  "primary": [
+    {
+      "label": "Courses",
+      "children": [
+        {
+          "label": "ABP Initial Certification Exam",
+          "description": "First-time and repeat test-takers",
+          "href": "#initial-certification"
+        },
+        {
+          "label": "Test-Taking Strategies",
+          "description": "Learn how to break down board questions",
+          "href": "#our-approach"
+        },
+        {
+          "label": "Small Group Discounts",
+          "description": "Save when colleagues enroll together",
+          "href": "#small-groups"
+        },
+        {
+          "label": "Residency Partnerships",
+          "description": "Program-wide access for residents",
+          "href": "#residency-partnerships"
+        },
+        {
+          "label": "ABP MOCA-Peds",
+          "description": "Quarterly recertification prep",
+          "href": "#moca-peds"
+        },
+        {
+          "label": "ABP MOC Exam",
+          "description": "Maintenance of certification review",
+          "href": "#moca-peds"
+        },
+        {
+          "label": "CME Credits & MOC Points",
+          "description": "Earn credits while you study",
+          "href": "#cme-specials"
+        }
+      ]
+    },
+    { "label": "Testimonials", "href": "#reviews" },
+    { "label": "Blog", "href": "#articles" },
+    { "label": "FAQs", "href": "/coming-soon" },
+    { "label": "About", "href": "#founder" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "login": { "label": "Log In", "href": "/coming-soon" },
+  "cta": { "label": "Get Started", "href": "#who-we-help" }
+}

@@ -1,0 +1,73 @@
+{
+  "description": "Structured pediatric board review for initial certification, MOC and MOCA-Peds.",
+  "contact": {
+    "label": "Questions? Email us",
+    "email": "hello@example.com"
+  },
+  "columns": [
+    {
+      "title": "Quick Links",
+      "links": [
+        { "label": "Residency", "href": "#residency-partnerships" },
+        { "label": "Initial Certification", "href": "#initial-certification" },
+        { "label": "MOC & MOCA-Peds", "href": "#moca-peds" },
+        { "label": "CME/MOC", "href": "#cme-specials" },
+        { "label": "Log In", "href": "/coming-soon" }
+      ]
+    },
+    {
+      "title": "Products",
+      "links": [
+        { "label": "All Access Pass", "href": "/coming-soon" },
+        { "label": "Test-Taking Strategies", "href": "#our-approach" },
+        { "label": "2027 Preorders", "href": "#preorder" },
+        { "label": "CME & MOC Credits", "href": "#cme-specials" },
+        { "label": "All Products", "href": "/coming-soon" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        { "label": "Blog", "href": "#articles" },
+        { "label": "Testimonials", "href": "#reviews" },
+        { "label": "Free Sample Chapters", "href": "#free-resources" },
+        { "label": "Pass Guarantee", "href": "/coming-soon" },
+        { "label": "Refund Policy", "href": "/coming-soon" }
+      ]
+    },
+    {
+      "title": "Articles",
+      "links": [
+        { "label": "Failed Pediatric Boards", "href": "#articles" },
+        { "label": "Passing The Boards", "href": "#articles" },
+        { "label": "Pediatric Mnemonics", "href": "#articles" },
+        { "label": "Roadmap To Success", "href": "#articles" },
+        { "label": "Study Schedule & Tips", "href": "#articles" }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        { "label": "About", "href": "#founder" },
+        { "label": "Contact", "href": "#contact" },
+        { "label": "FAQ", "href": "/coming-soon" },
+        { "label": "Terms and Conditions", "href": "/coming-soon" },
+        { "label": "Privacy Policy", "href": "/coming-soon" }
+      ]
+    }
+  ],
+  "social": [
+    { "platform": "facebook", "label": "Facebook", "href": "/coming-soon" },
+    { "platform": "x", "label": "X", "href": "/coming-soon" },
+    { "platform": "linkedin", "label": "LinkedIn", "href": "/coming-soon" },
+    { "platform": "instagram", "label": "Instagram", "href": "/coming-soon" },
+    { "platform": "youtube", "label": "YouTube", "href": "/coming-soon" }
+  ],
+  "legal": {
+    "copyright": "© 2026 PedsReady Board Review. All rights reserved.",
+    "links": [
+      { "label": "Terms & Conditions", "href": "/coming-soon" },
+      { "label": "Privacy Policy", "href": "/coming-soon" }
+    ]
+  }
+}

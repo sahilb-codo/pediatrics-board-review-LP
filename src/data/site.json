@@ -1,0 +1,16 @@
+{
+  "name": "PedsReady Board Review",
+  "shortName": "PedsReady",
+  "logoTagline": "Board Review",
+  "title": "PedsReady Board Review | Pass Your Pediatric Boards With Confidence",
+  "description": "Structured pediatric board review courses, test-taking strategies and study resources for initial certification, MOC and MOCA-Peds. Demo website with placeholder content.",
+  "demoNotice": "This is a demo website. All names, reviews, prices, offers and articles are placeholder content created for demonstration purposes.",
+  "announcement": {
+    "text": "2027 Preorder is live",
+    "detail": "Save up to 75% when you lock in now",
+    "cta": {
+      "label": "Preorder for $1",
+      "href": "#preorder"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "preorder": {
+    "eyebrow": "2027 Edition Preorders",
+    "title": "Preorder for Only $1 Now & Save Up to 75%",
+    "highlight": "Save Up to 75%",
+    "note": "Get online access instantly for only",
+    "noteHighlight": "$1",
+    "products": [
+      {
+        "id": "initial-certification-2027",
+        "title": "Initial Certification",
+        "releaseLabel": "Estimated Release Date:",
+        "releaseDate": "December 15, 2026",
+        "image": {
+          "src": "/images/bundle-initial.svg",
+          "alt": "Initial Certification bundle: study guide, video lessons and audio reviews shown on laptop, tablet and phone",
+          "width": 360,
+          "height": 200
+        },
+        "cta": { "label": "Preorder for $1", "href": "/coming-soon" },
+        "guarantee": "100% Money-Back First-Time Pass Guarantee"
+      },
+      {
+        "id": "moca-peds-2027",
+        "title": "MOCA-Peds",
+        "releaseLabel": "Estimated Release Date:",
+        "releaseDate": "December 15, 2026",
+        "image": {
+          "src": "/images/bundle-moca.svg",
+          "alt": "MOCA-Peds bundle: quarterly topic summaries shown on a monitor, tablet and printed guide",
+          "width": 360,
+          "height": 200
+        },
+        "cta": { "label": "Preorder for $1", "href": "/coming-soon" },
+        "guarantee": "100% Money-Back Quarterly Pass Guarantee"
+      }
+    ]
+  },
+  "quickPaths": [
+    {
+      "id": "path-initial",
+      "question": "First-time or repeat board taker?",
+      "label": "Initial Certification Exam",
+      "cta": { "label": "Start Here", "href": "#initial-certification" }
+    },
+    {
+      "id": "path-recertify",
+      "question": "Need to recertify quickly?",
+      "label": "MOC & MOCA-Peds",
+      "cta": { "label": "Start Here", "href": "#moca-peds" }
+    },
+    {
+      "id": "path-institutions",
+      "question": "Institutional partnerships",
+      "label": "Help your residents pass with confidence at scale",
+      "cta": { "label": "Start Here", "href": "#residency-partnerships" }
+    }
+  ],
+  "audiences": {
+    "title": "Who Do We Help?",
+    "highlight": "Help?",
+    "description": "Our high-yield study resources and proven strategies help pediatricians prepare for their board exams with confidence.",
+    "items": [
+      {
+        "id": "initial-certification",
+        "title": "Initial Certification Exam",
+        "tone": "lavender",
+        "image": {
+          "src": "/images/audience-initial.svg",
+          "alt": "Illustration of a resident physician holding a clipboard",
+          "width": 640,
+          "height": 300
+        },
+        "points": [
+          "For first-time or repeat test-takers, even after multiple attempts",
+          "Identify your risk factors and follow a tailored study path",
+          "Learn the strategies that separate those who pass from those who don't"
+        ],
+        "cta": { "label": "View Courses", "href": "/coming-soon" }
+      },
+      {
+        "id": "moca-peds",
+        "title": "MOCA-Peds",
+        "tone": "sky",
+        "image": {
+          "src": "/images/audience-moca.svg",
+          "alt": "Illustration of two attending pediatricians reviewing a tablet together",
+          "width": 640,
+          "height": 300
+        },
+        "points": [
+          "Already certified? Prepare for quarterly recertification questions with ease",
+          "High-yield, low-stress review optimized around your test days",
+          "Study smarter and keep your certification on track"
+        ],
+        "cta": { "label": "View Courses", "href": "/coming-soon" }
+      },
+      {
+        "id": "residency-partnerships",
+        "title": "Residency Partnerships",
+        "tone": "neutral",
+        "points": [
+          "Bulk access for residency programs of any size",
+          "Equip your residents with a proven, structured system",
+          "Work with an experienced partner on board readiness"
+        ],
+        "cta": { "label": "Get Free Guidance", "href": "/coming-soon" }
+      },
+      {
+        "id": "small-groups",
+        "title": "Small Group Discounts",
+        "tone": "neutral",
+        "points": [
+          "Friends or colleagues enrolling together save as a group",
+          "Everyone gets access to the full PedsReady system",
+          "Prepare together, pass together"
+        ],
+        "cta": { "label": "Get Group Pricing", "href": "/coming-soon" }
+      },
+      {
+        "id": "cme-specials",
+        "title": "CME Specials",
+        "tone": "neutral",
+        "points": [
+          "Earn CME credits and MOC points while preparing for the boards",
+          "Simple, guided claims process for eligible credits",
+          "Ideal for busy professionals with employer-funded education"
+        ],
+        "cta": { "label": "Explore CME Options", "href": "/coming-soon" }
+      }
+    ]
+  }
+}
