@@ -28,7 +28,7 @@ export function Footer({ site, footer, cta }: FooterProps) {
           <h2 id="footer-cta-title" className="text-4xl leading-[1.5] font-bold text-lavender sm:text-[3.125rem]">
             {cta.title}
           </h2>
-          <p className="max-w-3xl text-[1.0625rem] text-white">{cta.description}</p>
+          <p className="max-w-4xl text-[1.0625rem] text-white">{cta.description}</p>
           <Button
             href={cta.cta.href}
             size="lg"

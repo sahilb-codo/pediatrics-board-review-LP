@@ -3,7 +3,6 @@ import { ArticlesSection } from "@/components/sections/ArticlesSection";
 import { AsSeenOn } from "@/components/sections/AsSeenOn";
 import { Benefits } from "@/components/sections/Benefits";
 import { FounderSection } from "@/components/sections/FounderSection";
-import { FreeResources } from "@/components/sections/FreeResources";
 import { Hero } from "@/components/sections/Hero";
 import { PreorderSection } from "@/components/sections/PreorderSection";
 import { QuickPaths } from "@/components/sections/QuickPaths";
@@ -30,7 +29,6 @@ export default function Home() {
       <QuizCta quiz={cta.quiz} />
       <FounderSection founder={founder} />
       <ArticlesSection articles={articles} />
-      <FreeResources resources={cta.freeResources} />
     </>
   );
 }
