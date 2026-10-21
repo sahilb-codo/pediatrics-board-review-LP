@@ -19,7 +19,7 @@ export function FreeResources({ resources }: FreeResourcesProps) {
           </h2>
           <p className="max-w-xl">{resources.description}</p>
           <CheckList items={resources.resources} />
-          <div className="mt-2 grid max-w-lg grid-cols-2 gap-4">
+          <div className="mt-2 grid max-w-xl grid-cols-3 items-center gap-3 sm:gap-4">
             {resources.images.map((image) => (
               <Image
                 key={image.src}
@@ -27,7 +27,7 @@ export function FreeResources({ resources }: FreeResourcesProps) {
                 alt={image.alt}
                 width={image.width}
                 height={image.height}
-                sizes="(min-width: 1024px) 15rem, 45vw"
+                sizes="(min-width: 1024px) 12rem, 30vw"
                 className="h-auto w-full rounded-xl bg-white shadow-card"
               />
             ))}

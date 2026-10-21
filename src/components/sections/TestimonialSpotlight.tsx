@@ -6,10 +6,9 @@ import type { TestimonialsContent } from "@/types";
 
 type TestimonialSpotlightProps = {
   spotlight: TestimonialsContent["spotlight"];
-  disclaimer: string;
 };
 
-export function TestimonialSpotlight({ spotlight, disclaimer }: TestimonialSpotlightProps) {
+export function TestimonialSpotlight({ spotlight }: TestimonialSpotlightProps) {
   return (
     <section aria-labelledby="testimonials-title" className="bg-[#e9d5f7] py-16 sm:py-24">
       <Container className="max-w-4xl">
@@ -31,7 +30,6 @@ export function TestimonialSpotlight({ spotlight, disclaimer }: TestimonialSpotl
             }))}
           />
         </div>
-        <p className="mt-6 text-center text-xs text-body/80">{disclaimer}</p>
       </Container>
     </section>
   );

@@ -1,11 +1,11 @@
-# PedsReady Board Review — static landing page
+# Pediatrics Board Review — static landing page
 
-A static, responsive homepage for a pediatric board review course, inspired by the layout of
-pediatricsboardreview.com and built with original branding. All content is local JSON;
-there is no backend, database, API or authentication.
+A static, responsive rebuild of the pediatricsboardreview.com homepage using its branding,
+imagery and copy. All content is local JSON; there is no backend, database, API or
+authentication.
 
-> **Demo content.** The brand, founder, institutions, media outlets, reviews, prices and
-> articles are fictional placeholders and are labelled as such on the page.
+> **Front-end only.** Purchase, login, course and legal links lead to a `/coming-soon`
+> placeholder, and the free-chapters form does not submit anywhere (it says so on screen).
 
 ## Tech stack
 
@@ -68,7 +68,7 @@ src/
   data/                Local JSON content (site, navigation, hero, courses, features, ...)
   lib/                 content.ts (typed JSON access + validation), utils.ts
   types/               Content types matching the JSON files
-public/images/         Local images (original SVG artwork and provided photos/icons)
+public/images/         Local images (brand, photos, icons) organised by section
 scripts/               Post-export fix and static preview server
 ```
 
@@ -78,6 +78,6 @@ All text, links and image paths live in `src/data/*.json`. `src/lib/content.ts` 
 against `src/types/index.ts`, so a shape mismatch fails `npm run typecheck`, and invalid enum-like
 values (card tones, icon names, social platforms) fail the build with a descriptive error.
 
-Links to pages that are not part of this demo (course pages, checkout, login, legal pages,
+Links to pages that are not part of this static build (course pages, checkout, login, legal pages,
 articles) point to `/coming-soon`. Homepage section links use `/#section-id`, so they work from
 every page.

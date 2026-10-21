@@ -1,18 +1,18 @@
 {
   "title": "Pass Your Pediatric Boards With Confidence",
-  "description": "Whether it's your first attempt or you've struggled before, PedsReady gives you a structured, high-yield study system and the test-taking strategies to walk into exam day prepared. Take the next step toward board certification.",
+  "description": "Thousands of pediatricians (even those who've failed multiple times) have passed their board exams with our proven Pediatrics Board Review® system. Whether it's your first time or your tenth, our resources and strategies help you pass with confidence. Join them and take the next step toward exam success!",
   "highlights": [
     {
-      "lead": "Built to help you pass in a",
+      "lead": "Board certification in a",
       "emphasis": "Single attempt"
     },
     {
-      "lead": "Structured courses designed for",
+      "lead": "Tried and tested courses used by",
       "emphasis": "Pediatricians"
     },
     {
-      "lead": "Study plans for first-time and",
-      "emphasis": "Repeat takers"
+      "lead": "First-time pass rates estimated at",
+      "emphasis": "99%"
     }
   ],
   "cta": {
@@ -31,14 +31,10 @@
   },
   "visual": {
     "image": {
-      "src": "/images/hero-coach.svg",
-      "alt": "Illustration of a smiling pediatrician coach in a white coat",
-      "width": 520,
-      "height": 520
-    },
-    "greeting": "Hi, I'm Dr. Avery",
-    "message": "and I'm here to help you pass!",
-    "caption": "Meet Your",
-    "captionHighlight": "Coach"
+      "src": "/images/hero/meet-your-coach-ashish-goyal.webp",
+      "alt": "Meet your coach, Dr. Ashish Goyal: \"Hi, I'm Ashish and I'm here to help you pass!\"",
+      "width": 768,
+      "height": 950
+    }
   }
 }

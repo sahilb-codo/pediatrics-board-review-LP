@@ -2,27 +2,26 @@
   "title": "Popular Articles",
   "highlight": "Articles",
   "featured": {
-    "id": "board-exam-results-insights",
+    "id": "pediatric-board-exam-results",
     "badge": "Featured Article",
-    "title": "Pediatric Board Exam Results: What This Year's Trends Mean for You",
-    "excerpt": "Results season is always emotional. Here's how to read your score report, what this year's exam seemed to emphasize and how to turn those insights into a smarter plan for your next attempt or recertification cycle.",
+    "title": "Pediatric Board Exam Results for 2025 and Insights for 2026",
+    "excerpt": "Well, friends, the American Board of Pediatrics exam results for 2025 have been announced! It's always an emotional time for us here at PBR HQ. It's also overwhelming because we get flooded with emails from the members who have worked so hard over the past year, and have now FINALLY passed the boards! The stories from our 2025 members have been wonderful. To have members say that we have changed their lives has been nothing less than humbling.",
     "category": "Passing The Boards",
-    "author": "Dr. Jordan Avery",
+    "author": "Dr. Ashish Goyal",
     "date": "2025-12-02",
     "href": "/coming-soon",
     "image": {
-      "src": "/images/articles/featured-results.svg",
-      "alt": "Illustration of an exam results letter with a check mark, surrounded by confetti",
+      "src": "/images/articles/board-exam-results.webp",
+      "alt": "Video thumbnail: children celebrating pediatric board exam results",
       "width": 640,
-      "height": 360
+      "height": 352
     }
   },
   "items": [
     {
-      "id": "failed-boards-recovery-plan",
-      "title": "Failed the Pediatric Boards? A Step-by-Step Recovery Plan",
-      "excerpt": "A structured approach to regrouping after a failed attempt: how to diagnose what went wrong, build a realistic study schedule and practice test-taking strategy.",
-      "category": "Failed Pediatric Boards",
+      "id": "failed-pediatric-boards",
+      "title": "So You Failed The Pediatric Boards? Use A Recovery Plan That Works!",
+      "excerpt": "Since I failed the first time too, and then I increased my score by 40%, I know how to help you pass. Follow this step-by-step guide with an easy-to-follow structure, study schedule, and recommendations on test-taking strategy to pass.",
       "href": "/coming-soon",
       "image": {
         "src": "/images/articles/failed-boards-recovery-plan.webp",
@@ -32,10 +31,9 @@
       }
     },
     {
-      "id": "practice-questions-vs-study-material",
-      "title": "Practice Questions vs. Study Material: Using Each the Right Way",
-      "excerpt": "Many pediatricians treat question banks as their primary study resource. Learn the difference between practicing questions and actually learning the content.",
-      "category": "Study Schedule & Tips",
+      "id": "why-prep-questions-are-not-the-best-study-questions",
+      "title": "Why AAP PREP Questions Are NOT The Best Study Questions For the Pediatric Board Exam",
+      "excerpt": "Pediatricians often treat AAP prep questions as a study resource. This is a very common mistake. Read this article to understand the difference between how you should, and how you should not, use the AAP's prep questions to help you pass the pediatric boards!",
       "href": "/coming-soon",
       "image": {
         "src": "/images/articles/practice-questions-vs-study-material.webp",
@@ -45,10 +43,9 @@
       }
     },
     {
-      "id": "how-many-practice-questions",
-      "title": "How Many Practice Questions Do You Really Need?",
-      "excerpt": "Is there a magic number of practice questions? We break down how to use question banks efficiently and when more questions stop helping.",
-      "category": "Study Schedule & Tips",
+      "id": "how-many-aap-prep-questions-should-i-do",
+      "title": "How Many AAP Prep Questions Should I Do to Pass the Pediatric Boards?",
+      "excerpt": "When using the AAP PREP questions for PRACTICING board-style questions, is there a minimum number of questions I should do? Is there a better way to use PREP questions to prepare? Should I use them to study? Get all your questions answered in this article!",
       "href": "/coming-soon",
       "image": {
         "src": "/images/articles/how-many-practice-questions.webp",
@@ -58,10 +55,9 @@
       }
     },
     {
-      "id": "test-taking-strategies",
+      "id": "test-taking-strategies-medical-board-exams",
       "title": "Test-Taking Strategies for Medical Board Exams",
-      "excerpt": "Knowing the topics is only half the battle. Learn three strategies you can use right away to break down, process and answer questions with confidence.",
-      "category": "Passing The Boards",
+      "excerpt": "It's possible that you are not a great test-taker. Focusing only on the topics is not enough. You need to develop strong test-taking strategies to help you break-down, process, and answer questions quickly! Learn 3 strategies that you can incorporate instantly to help you pass any medical board exam.",
       "href": "/coming-soon",
       "image": {
         "src": "/images/articles/test-taking-strategies.webp",
@@ -71,10 +67,9 @@
       }
     },
     {
-      "id": "compare-review-courses",
-      "title": "How to Compare Pediatric Board Review Courses",
-      "excerpt": "What to look for in a review course, what tends to work, what doesn't and how to choose an option that fits your schedule and learning style.",
-      "category": "Roadmap To Success",
+      "id": "pediatric-board-review-course-2026",
+      "title": "Compare 2026 Pediatric Board Review Courses",
+      "excerpt": "Not sure which pediatric study course you should take? Read this article for our tips on what to look for in a review course, what works, what doesn't work, and which pediatric board review courses might fit your schedule.",
       "href": "/coming-soon",
       "image": {
         "src": "/images/articles/compare-review-courses.webp",
@@ -86,8 +81,7 @@
     {
       "id": "pediatric-mnemonics",
       "title": "Creating Memorable Pediatric Mnemonics",
-      "excerpt": "Rote memorization doesn't scale to thousands of topics. Learn how to create simple, effective mnemonics that hold up under exam pressure.",
-      "category": "Pediatric Mnemonics",
+      "excerpt": "It's impossible to remember 2500 pediatric topics through rote memorization. Learning how to create simple (but effective) mnemonics can make or break your score on the pediatric boards. Read this article on creating high quality mnemonics and get access to FREE mnemonics from the PBR Core Study Guide.",
       "href": "/coming-soon",
       "image": {
         "src": "/images/articles/pediatric-mnemonics.webp",

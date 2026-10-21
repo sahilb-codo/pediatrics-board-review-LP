@@ -23,10 +23,10 @@ export default function Home() {
       <TrustedBy trustedBy={features.trustedBy} />
       <QuickPaths paths={courses.quickPaths} />
       <ApproachSection approach={features.approach} />
-      <ReviewsSection reviews={testimonials.reviews} disclaimer={testimonials.disclaimer} />
+      <ReviewsSection reviews={testimonials.reviews} />
       <AsSeenOn asSeenOn={features.asSeenOn} />
       <WhoWeHelp audiences={courses.audiences} />
-      <TestimonialSpotlight spotlight={testimonials.spotlight} disclaimer={testimonials.disclaimer} />
+      <TestimonialSpotlight spotlight={testimonials.spotlight} />
       <Benefits benefits={features.benefits} />
       <QuizCta quiz={cta.quiz} />
       <FounderSection founder={founder} />

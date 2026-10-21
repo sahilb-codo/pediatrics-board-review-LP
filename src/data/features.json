@@ -1,43 +1,56 @@
 {
   "trustedBy": {
-    "lead": "Used by pediatricians who trained at programs like:",
+    "lead": "Trusted by top doctors who have practiced at renowned institutions:",
     "institutions": [
-      "Northbridge Children's Hospital",
-      "Lakeview University Medical Center",
-      "Harbor Point Pediatrics",
-      "Summit Valley Health",
-      "Riverside Academic Medicine"
-    ],
-    "note": "Institution names are fictional placeholders."
+      "Johns Hopkins Medicine",
+      "Cleveland Clinic",
+      "Mayo Clinic",
+      "Massachusetts General Hospital",
+      "University of Michigan Medicine"
+    ]
   },
   "approach": {
     "title": "What if passing isn't about what you study, but how you study?",
     "highlight": "but how you study?",
     "paragraphs": [
-      "You're not alone. Even brilliant doctors struggle when they rely on the wrong approach.",
-      "Board review isn't just about cramming more content. It's about the strategy you use, the structure you follow and the support you get along the way.",
+      "You're not alone. Even brilliant doctors fail when they rely on the wrong approach.",
+      "Board review isn't just about cramming more content. It's about how you study. It's about the strategy you use, the structure you follow, and the support you get.",
       "We help you master all three, so you don't just study harder. You study smarter."
     ],
-    "closing": "Join pediatricians who've found a smarter way to prepare.",
+    "closing": "Join thousands of pediatricians who've found a smarter way to pass.",
     "cta": {
       "label": "Get Started",
       "href": "/#who-we-help"
     },
     "image": {
       "src": "/images/approach-doctor.webp",
-      "alt": "A doctor deep in thought, surrounded by speech bubbles reading: Sound like you? Strategy is fluff. I have never failed, I will be fine. It was not me, it was the book.",
+      "alt": "A doctor deep in thought, surrounded by speech bubbles reading: Sound like you? Strategy is fluff. I've never failed, I'll be fine. It wasn't me, it was the book.",
       "width": 730,
       "height": 640
     }
   },
   "asSeenOn": {
     "title": "As Seen On",
-    "outlets": [
-      "The Resident Report",
-      "MedLearn Weekly",
-      "Pediatric Practice Today"
-    ],
-    "note": "Media outlet names are fictional placeholders."
+    "logos": [
+      {
+        "src": "/images/media/practicelink.webp",
+        "alt": "PracticeLink",
+        "width": 251,
+        "height": 68
+      },
+      {
+        "src": "/images/media/nbc.webp",
+        "alt": "NBC",
+        "width": 234,
+        "height": 58
+      },
+      {
+        "src": "/images/media/family-education.webp",
+        "alt": "FamilyEducation",
+        "width": 276,
+        "height": 34
+      }
+    ]
   },
   "benefits": {
     "title": "Why Students Love Us:",
@@ -47,7 +60,7 @@
         "id": "concise",
         "icon": "clock",
         "title": "Concise Content",
-        "description": "We cut the fluff and focus on the most frequently tested topics, saving you hours of study time."
+        "description": "We cut the fluff and focus only on the most tested topics, saving you hours of study time."
       },
       {
         "id": "simple",
@@ -56,28 +69,28 @@
         "description": "No overwhelming basic science. Just clear, easy-to-understand explanations that stick."
       },
       {
-        "id": "structured",
+        "id": "effectiveness",
         "icon": "rocket",
-        "title": "Proven Structure",
-        "description": "A step-by-step study system that tells you what to review, when to review it and how to practice."
+        "title": "Proven Effectiveness",
+        "description": "PBR members score well above the national mean, with an estimated 99% first-time pass rate based on over 10 years of data."
       },
       {
         "id": "guarantee",
         "icon": "shield",
-        "title": "Pass Guarantee",
-        "description": "If you don't pass on your first try, you can request a refund under the guarantee terms."
+        "title": "100% Pass Guarantee",
+        "description": "If you don't pass on your first try, you get your money back. That's how confident we are. Visit our guarantee page for full details."
       },
       {
         "id": "multimodal",
         "icon": "book",
         "title": "Multimodal Learning",
-        "description": "Learn your way with video, audio, print and digital resources that work together seamlessly."
+        "description": "Learn your way with videos, audio, print, and digital resources working together for seamless studying."
       },
       {
         "id": "mastery",
         "icon": "sparkle",
         "title": "Built for Mastery",
-        "description": "Repetition is built in. Every module is designed to help you review and retain what matters most."
+        "description": "Repetition is built in. Our content is designed to help you review and retain what matters most."
       }
     ]
   }

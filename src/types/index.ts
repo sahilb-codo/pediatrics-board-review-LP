@@ -15,13 +15,9 @@ export type ImageAsset = {
 /* site.json */
 export type SiteContent = {
   name: string;
-  shortName: string;
-  /** Part of `shortName` rendered in the accent color in the logo. */
-  logoHighlight: string;
-  logoTagline: string;
   title: string;
   description: string;
-  demoNotice: string;
+  logo: ImageAsset;
   announcement: {
     text: string;
     detail: string;
@@ -62,11 +58,8 @@ export type HeroContent = {
     highlight: string;
   };
   visual: {
+    /** Composite banner: portrait, speech bubble and "Meet Your Coach" caption are part of the artwork. */
     image: ImageAsset;
-    greeting: string;
-    message: string;
-    caption: string;
-    captionHighlight: string;
   };
 };
 
@@ -133,7 +126,6 @@ export type FeaturesContent = {
   trustedBy: {
     lead: string;
     institutions: string[];
-    note: string;
   };
   approach: {
     title: string;
@@ -145,8 +137,7 @@ export type FeaturesContent = {
   };
   asSeenOn: {
     title: string;
-    outlets: string[];
-    note: string;
+    logos: ImageAsset[];
   };
   benefits: {
     title: string;
@@ -163,6 +154,7 @@ export type Review = {
   date: string;
   rating: number;
   text: string;
+  avatar: ImageAsset;
 };
 
 export type Testimonial = {
@@ -171,15 +163,19 @@ export type Testimonial = {
   quote: string;
   name: string;
   role: string;
-  initials: string;
+  image: ImageAsset;
 };
 
 export type TestimonialsContent = {
-  disclaimer: string;
   reviews: {
     title: string;
     highlight: string;
-    sourceLabel: string;
+    platform: {
+      name: string;
+      logo: ImageAsset;
+    };
+    rating: number;
+    ratingLabel: string;
     badge: string;
     items: Review[];
   };
@@ -194,13 +190,13 @@ export type Article = {
   id: string;
   title: string;
   excerpt: string;
-  category: string;
   href: string;
   image: ImageAsset;
 };
 
 export type FeaturedArticle = Article & {
   badge: string;
+  category: string;
   author: string;
   /** ISO date (YYYY-MM-DD). */
   date: string;
@@ -219,7 +215,6 @@ export type FounderContent = {
   title: string;
   name: string;
   bio: string;
-  note: string;
   cta: LinkItem;
   image: ImageAsset;
 };
@@ -272,7 +267,7 @@ export type FooterContent = {
   description: string;
   contact: {
     label: string;
-    email: string;
+    cta: LinkItem;
   };
   columns: FooterColumn[];
   social: SocialLink[];

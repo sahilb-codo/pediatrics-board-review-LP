@@ -19,7 +19,8 @@ export function ProductCard({ product }: ProductCardProps) {
         alt={product.image.alt}
         width={product.image.width}
         height={product.image.height}
-        className="my-6 h-auto w-full max-w-72"
+        sizes="(min-width: 768px) 20rem, 80vw"
+        className="my-6 h-40 w-full max-w-80 object-contain sm:h-44"
       />
       <Button href={product.cta.href} variant="violet" size="lg" trailingIcon="chevron-right">
         {product.cta.label}

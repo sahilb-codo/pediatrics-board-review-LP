@@ -12,16 +12,16 @@
         "releaseLabel": "Estimated Release Date:",
         "releaseDate": "December 15, 2026",
         "image": {
-          "src": "/images/bundle-initial.svg",
-          "alt": "Initial Certification bundle: study guide, video lessons and audio reviews shown on laptop, tablet and phone",
-          "width": 360,
-          "height": 200
+          "src": "/images/products/initial-certification-bundle.webp",
+          "alt": "PBR No Brainer Bundle: study guide, videos, audio and question bank on laptop, tablet and phone",
+          "width": 700,
+          "height": 277
         },
         "cta": {
           "label": "Preorder for $1",
           "href": "/coming-soon"
         },
-        "guarantee": "100% Money-Back First-Time Pass Guarantee"
+        "guarantee": "100% Money-Back First Time Pass Guarantee"
       },
       {
         "id": "moca-peds-2027",
@@ -29,10 +29,10 @@
         "releaseLabel": "Estimated Release Date:",
         "releaseDate": "December 15, 2026",
         "image": {
-          "src": "/images/bundle-moca.svg",
-          "alt": "MOCA-Peds bundle: quarterly topic summaries shown on a monitor, tablet and printed guide",
-          "width": 360,
-          "height": 200
+          "src": "/images/products/moca-peds-bundle.webp",
+          "alt": "MOCA-PBR Bundle shown on a monitor, tablet and printed study guide",
+          "width": 700,
+          "height": 560
         },
         "cta": {
           "label": "Preorder for $1",
@@ -74,7 +74,7 @@
   "audiences": {
     "title": "Who Do We Help?",
     "highlight": "Help?",
-    "description": "Our high-yield study resources and proven strategies help pediatricians prepare for their board exams with confidence.",
+    "description": "Our high-yield study resources and proven strategies help pediatricians pass their board exams with confidence.",
     "items": [
       {
         "id": "initial-certification",
@@ -82,14 +82,14 @@
         "tone": "lavender",
         "image": {
           "src": "/images/audience/initial-certification.webp",
-          "alt": "Smiling young pediatrician in a white coat with a stethoscope, holding a tablet",
+          "alt": "Confident young pediatrician in a white coat with a stethoscope, holding a tablet",
           "width": 1424,
           "height": 632
         },
         "points": [
-          "For first-time or repeat test-takers, even after multiple attempts",
-          "Identify your risk factors and follow a tailored study path",
-          "Learn the strategies that separate those who pass from those who don't"
+          "For first-time or repeat test-takers, even after multiple failed attempts",
+          "Discover your risk of failing and get a tailored path to success",
+          "Learn the pediatric board review strategies that separates those who pass from those who don't"
         ],
         "cta": {
           "label": "View Courses",
@@ -102,14 +102,14 @@
         "tone": "sky",
         "image": {
           "src": "/images/audience/moca-peds.webp",
-          "alt": "Two confident pediatricians standing together in a bright clinic",
+          "alt": "Two smiling pediatricians preparing together in a bright clinic",
           "width": 1424,
           "height": 632
         },
         "points": [
-          "Already certified? Prepare for quarterly recertification questions with ease",
-          "High-yield, low-stress review optimized around your test days",
-          "Study smarter and keep your certification on track"
+          "Already certified? Prepare for quarterly recertification exams with ease.",
+          "High-yield, low-stress review system optimized for your test days",
+          "Study smarter, pass MOCA-Peds in just three years, and get a two-year break"
         ],
         "cta": {
           "label": "View Courses",
@@ -121,9 +121,9 @@
         "title": "Residency Partnerships",
         "tone": "neutral",
         "points": [
-          "Bulk access for residency programs of any size",
+          "Bulk access for residency programs (4 to 120+ residents)",
           "Equip your residents with a proven, structured system",
-          "Work with an experienced partner on board readiness"
+          "Work with an expert partner to improve board pass rates"
         ],
         "cta": {
           "label": "Get Free Guidance",
@@ -135,12 +135,12 @@
         "title": "Small Group Discounts",
         "tone": "neutral",
         "points": [
-          "Friends or colleagues enrolling together save as a group",
-          "Everyone gets access to the full PedsReady system",
+          "Friends or colleagues buying together for group discounts",
+          "Access the full PBR system and save when you team up",
           "Prepare together, pass together"
         ],
         "cta": {
-          "label": "Get Group Pricing",
+          "label": "Get Resident Discounts",
           "href": "/coming-soon"
         }
       },
@@ -149,12 +149,12 @@
         "title": "CME Specials",
         "tone": "neutral",
         "points": [
-          "Earn CME credits and MOC points while preparing for the boards",
-          "Simple, guided claims process for eligible credits",
+          "Earn CME and MOC credits while preparing for the boards or for recertification",
+          "Fast and easy claims process for over 200 credits",
           "Ideal for busy professionals with employer-funded education"
         ],
         "cta": {
-          "label": "Explore CME Options",
+          "label": "Get Credits And Rebates",
           "href": "/coming-soon"
         }
       }

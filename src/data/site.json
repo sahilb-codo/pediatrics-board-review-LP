@@ -1,11 +1,13 @@
 {
-  "name": "PedsReady Board Review",
-  "shortName": "PedsReady",
-  "logoHighlight": "Ready",
-  "logoTagline": "Board Review",
-  "title": "PedsReady Board Review | Pass Your Pediatric Boards With Confidence",
-  "description": "Structured pediatric board review courses, test-taking strategies and study resources for initial certification, MOC and MOCA-Peds. Demo website with placeholder content.",
-  "demoNotice": "This is a demo website. All names, reviews, prices, offers and articles are placeholder content created for demonstration purposes.",
+  "name": "Pediatrics Board Review",
+  "title": "Pediatrics Board Review | Pass Your Pediatric Boards With Confidence",
+  "description": "Pass your pediatric boards with confidence. Pediatrics Board Review offers proven courses and test-taking strategies for the ABP Initial Certification Exam, MOC and MOCA-Peds.",
+  "logo": {
+    "src": "/images/brand/pbr-logo.webp",
+    "alt": "Pediatrics Board Review",
+    "width": 300,
+    "height": 95
+  },
   "announcement": {
     "text": "2027 Preorder is live",
     "detail": "Save up to 75% when you lock in now",

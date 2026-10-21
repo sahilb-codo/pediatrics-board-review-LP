@@ -18,28 +18,28 @@ export function Footer({ site, footer }: FooterProps) {
       <Container className="pt-14 pb-8 sm:pt-16">
         <div className="grid gap-10 lg:grid-cols-[1.4fr_3fr] lg:gap-12">
           <div className="flex flex-col items-start gap-5">
-            <Logo name={site.name} shortName={site.shortName} highlight={site.logoHighlight} tagline={site.logoTagline} />
+            <Logo name={site.name} logo={site.logo} />
             <p className="max-w-xs text-sm">{footer.description}</p>
             <div className="text-sm">
               <p className="font-semibold text-ink">{footer.contact.label}</p>
-              <a
-                href={`mailto:${footer.contact.email}`}
-                className="inline-flex items-center gap-2 py-1 text-brand hover:text-brand-strong"
+              <Link
+                href={footer.contact.cta.href}
+                className="inline-flex items-center gap-2 py-1 font-medium text-brand hover:text-brand-strong"
               >
                 <Icon name="mail" className="size-4" />
-                {footer.contact.email}
-              </a>
+                {footer.contact.cta.label}
+              </Link>
             </div>
             <ul className="flex gap-2" aria-label="Social media">
               {footer.social.map((social) => (
                 <li key={social.platform}>
-                  <Link
+                  <a
                     href={social.href}
                     aria-label={social.label}
                     className="grid size-10 place-items-center rounded-full bg-white text-navy ring-1 ring-line transition-colors hover:bg-brand hover:text-white"
                   >
                     <SocialIcon platform={social.platform} />
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -81,7 +81,6 @@ export function Footer({ site, footer }: FooterProps) {
             </li>
           </ul>
         </div>
-        <p className="mt-6 text-xs text-muted">{site.demoNotice}</p>
       </Container>
     </footer>
   );
